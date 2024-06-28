@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.46">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cloud For Data Management – CloudForDMQ</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">CloudForDMQ</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./static_md/tutorials_links.html"> 
+<span class="menu-text">Tutorials’ Links</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#general-introduction" id="toc-general-introduction" class="nav-link active" data-scroll-target="#general-introduction">General Introduction</a></li>
+  <li><a href="#from-pure-software-to-cloud" id="toc-from-pure-software-to-cloud" class="nav-link" data-scroll-target="#from-pure-software-to-cloud">From pure software to Cloud</a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-data-management-platform" id="toc-what-is-a-data-management-platform" class="nav-link" data-scroll-target="#what-is-a-data-management-platform">What is a data-management platform</a></li>
+  <li><a href="#where-do-you-want-it-to-be" id="toc-where-do-you-want-it-to-be" class="nav-link" data-scroll-target="#where-do-you-want-it-to-be">Where do you want it to be?</a></li>
+  <li><a href="#costs-and-benefits" id="toc-costs-and-benefits" class="nav-link" data-scroll-target="#costs-and-benefits">Costs and benefits</a></li>
+  <li><a href="#introduction-to-security-issues" id="toc-introduction-to-security-issues" class="nav-link" data-scroll-target="#introduction-to-security-issues">Introduction to Security issues</a></li>
+  </ul></li>
+  <li><a href="#a-short-overview-of-data-management-platforms" id="toc-a-short-overview-of-data-management-platforms" class="nav-link" data-scroll-target="#a-short-overview-of-data-management-platforms">A short overview of Data Management Platforms</a>
+  <ul class="collapse">
+  <li><a href="#major-platforms" id="toc-major-platforms" class="nav-link" data-scroll-target="#major-platforms">Major platforms</a></li>
+  <li><a href="#medium-platforms" id="toc-medium-platforms" class="nav-link" data-scroll-target="#medium-platforms">Medium platforms</a></li>
+  <li><a href="#small-platforms-and-others" id="toc-small-platforms-and-others" class="nav-link" data-scroll-target="#small-platforms-and-others">Small platforms and others</a></li>
+  <li><a href="#data-management-repositories" id="toc-data-management-repositories" class="nav-link" data-scroll-target="#data-management-repositories">Data Management repositories</a></li>
+  <li><a href="#data-management-planning-tools" id="toc-data-management-planning-tools" class="nav-link" data-scroll-target="#data-management-planning-tools">Data Management Planning tools</a></li>
+  </ul></li>
+  <li><a href="#being-fair" id="toc-being-fair" class="nav-link" data-scroll-target="#being-fair">Being FAIR</a>
+  <ul class="collapse">
+  <li><a href="#why-it-is-important" id="toc-why-it-is-important" class="nav-link" data-scroll-target="#why-it-is-important">Why it is important</a></li>
+  <li><a href="#technical-considerations" id="toc-technical-considerations" class="nav-link" data-scroll-target="#technical-considerations">Technical considerations</a></li>
+  <li><a href="#non-technical-considerations" id="toc-non-technical-considerations" class="nav-link" data-scroll-target="#non-technical-considerations">Non-technical considerations</a></li>
+  <li><a href="#datamanagement-planning" id="toc-datamanagement-planning" class="nav-link" data-scroll-target="#datamanagement-planning">Datamanagement planning</a></li>
+  </ul></li>
+  <li><a href="#general-set-up" id="toc-general-set-up" class="nav-link" data-scroll-target="#general-set-up">General set-up</a>
+  <ul class="collapse">
+  <li><a href="#toward-provisionning" id="toc-toward-provisionning" class="nav-link" data-scroll-target="#toward-provisionning">Toward provisionning</a></li>
+  <li><a href="#downloadable-software" id="toc-downloadable-software" class="nav-link" data-scroll-target="#downloadable-software">Downloadable software</a></li>
+  <li><a href="#on-server-and-virtual-servers" id="toc-on-server-and-virtual-servers" class="nav-link" data-scroll-target="#on-server-and-virtual-servers">On server and virtual servers</a></li>
+  <li><a href="#in-containers" id="toc-in-containers" class="nav-link" data-scroll-target="#in-containers">In Containers</a></li>
+  <li><a href="#on-virtual-environments" id="toc-on-virtual-environments" class="nav-link" data-scroll-target="#on-virtual-environments">On virtual environments</a></li>
+  <li><a href="#on-the-cloud-without-orchestration" id="toc-on-the-cloud-without-orchestration" class="nav-link" data-scroll-target="#on-the-cloud-without-orchestration">On the Cloud, without orchestration</a></li>
+  <li><a href="#orchestrated-introduction-to-kubernetes" id="toc-orchestrated-introduction-to-kubernetes" class="nav-link" data-scroll-target="#orchestrated-introduction-to-kubernetes">Orchestrated, introduction to Kubernetes</a></li>
+  </ul></li>
+  <li><a href="#backups-and-security" id="toc-backups-and-security" class="nav-link" data-scroll-target="#backups-and-security">Backups and security</a>
+  <ul class="collapse">
+  <li><a href="#planning-for-disaster-other-term-less-dramatic" id="toc-planning-for-disaster-other-term-less-dramatic" class="nav-link" data-scroll-target="#planning-for-disaster-other-term-less-dramatic">Planning for disaster (other term less dramatic?)</a></li>
+  <li><a href="#backups-and-recovery" id="toc-backups-and-recovery" class="nav-link" data-scroll-target="#backups-and-recovery">Backups and Recovery</a></li>
+  </ul></li>
+  <li><a href="#interconnected-platforms" id="toc-interconnected-platforms" class="nav-link" data-scroll-target="#interconnected-platforms">Interconnected platforms</a>
+  <ul class="collapse">
+  <li><a href="#why---creating-a-workflow" id="toc-why---creating-a-workflow" class="nav-link" data-scroll-target="#why---creating-a-workflow">Why -&gt; creating a workflow</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a></li>
+  <li><a href="#making-things-easier" id="toc-making-things-easier" class="nav-link" data-scroll-target="#making-things-easier">Making things easier</a></li>
+  <li><a href="#benefits" id="toc-benefits" class="nav-link" data-scroll-target="#benefits">Benefits</a></li>
+  <li><a href="#costs" id="toc-costs" class="nav-link" data-scroll-target="#costs">Costs</a></li>
+  <li><a href="#the-limits-of-exchange" id="toc-the-limits-of-exchange" class="nav-link" data-scroll-target="#the-limits-of-exchange">The limits of exchange</a>
+  <ul class="collapse">
+  <li><a href="#formats" id="toc-formats" class="nav-link" data-scroll-target="#formats">Formats</a></li>
+  <li><a href="#privacy" id="toc-privacy" class="nav-link" data-scroll-target="#privacy">Privacy</a></li>
+  <li><a href="#security" id="toc-security" class="nav-link" data-scroll-target="#security">Security</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#useful-tools" id="toc-useful-tools" class="nav-link" data-scroll-target="#useful-tools">Useful tools</a>
+  <ul class="collapse">
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  <li><a href="#go" id="toc-go" class="nav-link" data-scroll-target="#go">Go</a></li>
+  <li><a href="#scilab" id="toc-scilab" class="nav-link" data-scroll-target="#scilab">Scilab</a></li>
+  </ul></li>
+  <li><a href="#todo" id="toc-todo" class="nav-link" data-scroll-target="#todo">TODO</a></li>
+  <li><a href="#to-consider" id="toc-to-consider" class="nav-link" data-scroll-target="#to-consider">TO CONSIDER</a></li>
+  <li><a href="#to-check" id="toc-to-check" class="nav-link" data-scroll-target="#to-check">TO CHECK</a></li>
+  <li><a href="#concerns" id="toc-concerns" class="nav-link" data-scroll-target="#concerns">CONCERNS</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cloud For Data Management</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Documentation, tutorials and overview about Data Management in the Cloud, and to some extent outside the Cloud.</p>
+<section id="general-introduction" class="level1">
+<h1>General Introduction</h1>
+</section>
+<section id="from-pure-software-to-cloud" class="level1">
+<h1>From pure software to Cloud</h1>
+<section id="what-is-a-data-management-platform" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-data-management-platform">What is a data-management platform</h2>
+</section>
+<section id="where-do-you-want-it-to-be" class="level2">
+<h2 class="anchored" data-anchor-id="where-do-you-want-it-to-be">Where do you want it to be?</h2>
+</section>
+<section id="costs-and-benefits" class="level2">
+<h2 class="anchored" data-anchor-id="costs-and-benefits">Costs and benefits</h2>
+</section>
+<section id="introduction-to-security-issues" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-security-issues">Introduction to Security issues</h2>
+</section>
+</section>
+<section id="a-short-overview-of-data-management-platforms" class="level1">
+<h1>A short overview of Data Management Platforms</h1>
+<section id="major-platforms" class="level2">
+<h2 class="anchored" data-anchor-id="major-platforms">Major platforms</h2>
+</section>
+<section id="medium-platforms" class="level2">
+<h2 class="anchored" data-anchor-id="medium-platforms">Medium platforms</h2>
+</section>
+<section id="small-platforms-and-others" class="level2">
+<h2 class="anchored" data-anchor-id="small-platforms-and-others">Small platforms and others</h2>
+</section>
+<section id="data-management-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="data-management-repositories">Data Management repositories</h2>
+</section>
+<section id="data-management-planning-tools" class="level2">
+<h2 class="anchored" data-anchor-id="data-management-planning-tools">Data Management Planning tools</h2>
+</section>
+</section>
+<section id="being-fair" class="level1">
+<h1>Being FAIR</h1>
+<section id="why-it-is-important" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-is-important">Why it is important</h2>
+<p>Research Results are useful if the can be used, easily Findable and Accessible, the data output should be Interoperable and Reusable. FAIR is being helped or made possible by the 4 Cs -&gt; Consensus, Curation, Consolidation, Conservation</p>
+</section>
+<section id="technical-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="technical-considerations">Technical considerations</h2>
+</section>
+<section id="non-technical-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="non-technical-considerations">Non-technical considerations</h2>
+</section>
+<section id="datamanagement-planning" class="level2">
+<h2 class="anchored" data-anchor-id="datamanagement-planning">Datamanagement planning</h2>
+</section>
+</section>
+<section id="general-set-up" class="level1">
+<h1>General set-up</h1>
+<section id="toward-provisionning" class="level2">
+<h2 class="anchored" data-anchor-id="toward-provisionning">Toward provisionning</h2>
+</section>
+<section id="downloadable-software" class="level2">
+<h2 class="anchored" data-anchor-id="downloadable-software">Downloadable software</h2>
+</section>
+<section id="on-server-and-virtual-servers" class="level2">
+<h2 class="anchored" data-anchor-id="on-server-and-virtual-servers">On server and virtual servers</h2>
+</section>
+<section id="in-containers" class="level2">
+<h2 class="anchored" data-anchor-id="in-containers">In Containers</h2>
+</section>
+<section id="on-virtual-environments" class="level2">
+<h2 class="anchored" data-anchor-id="on-virtual-environments">On virtual environments</h2>
+<p>Proxmox, VMware &amp; clusters</p>
+<p>Ansible &amp; Terraform, Slurm</p>
+</section>
+<section id="on-the-cloud-without-orchestration" class="level2">
+<h2 class="anchored" data-anchor-id="on-the-cloud-without-orchestration">On the Cloud, without orchestration</h2>
+<p>VM</p>
+<p>Containers ~ to virtual envs</p>
+</section>
+<section id="orchestrated-introduction-to-kubernetes" class="level2">
+<h2 class="anchored" data-anchor-id="orchestrated-introduction-to-kubernetes">Orchestrated, introduction to Kubernetes</h2>
+</section>
+</section>
+<section id="backups-and-security" class="level1">
+<h1>Backups and security</h1>
+<section id="planning-for-disaster-other-term-less-dramatic" class="level2">
+<h2 class="anchored" data-anchor-id="planning-for-disaster-other-term-less-dramatic">Planning for disaster (other term less dramatic?)</h2>
+</section>
+<section id="backups-and-recovery" class="level2">
+<h2 class="anchored" data-anchor-id="backups-and-recovery">Backups and Recovery</h2>
+<p>Try to check a full recovery from a really blank software stack -&gt; doing a recovery using a local setup might miss another needed backup.</p>
+</section>
+</section>
+<section id="interconnected-platforms" class="level1">
+<h1>Interconnected platforms</h1>
+<section id="why---creating-a-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="why---creating-a-workflow">Why -&gt; creating a workflow</h2>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+</section>
+<section id="making-things-easier" class="level2">
+<h2 class="anchored" data-anchor-id="making-things-easier">Making things easier</h2>
+</section>
+<section id="benefits" class="level2">
+<h2 class="anchored" data-anchor-id="benefits">Benefits</h2>
+</section>
+<section id="costs" class="level2">
+<h2 class="anchored" data-anchor-id="costs">Costs</h2>
+<p>More dependencies Added complexity</p>
+<p>Hidden complexity Containers are not as secure as isolated virtual machine for their host. An issue is the isolation mechanism could allow an attack on the host.</p>
+</section>
+<section id="the-limits-of-exchange" class="level2">
+<h2 class="anchored" data-anchor-id="the-limits-of-exchange">The limits of exchange</h2>
+<section id="formats" class="level3">
+<h3 class="anchored" data-anchor-id="formats">Formats</h3>
+</section>
+<section id="privacy" class="level3">
+<h3 class="anchored" data-anchor-id="privacy">Privacy</h3>
+</section>
+<section id="security" class="level3">
+<h3 class="anchored" data-anchor-id="security">Security</h3>
+</section>
+</section>
+</section>
+<section id="useful-tools" class="level1">
+<h1>Useful tools</h1>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+</section>
+<section id="go" class="level2">
+<h2 class="anchored" data-anchor-id="go">Go</h2>
+</section>
+<section id="scilab" class="level2">
+<h2 class="anchored" data-anchor-id="scilab">Scilab</h2>
+</section>
+</section>
+<section id="todo" class="level1">
+<h1>TODO</h1>
+<p>Project-Management tools (Trello, GitHub projects, GitLab)</p>
+<p>Versioning and version control systems</p>
+<p>Cheat Sheets</p>
+<p>DB replication concern, also key-value storage</p>
+<p>Data format, meta-data/taxonomies/ontologies</p>
+<p>Set-up: CLI vs UI</p>
+<p>Container issue, “hot”-swap</p>
+<p>Managing load</p>
+<p>OpenStack</p>
+<p>Other clouds solution</p>
+<p>JupyterLab</p>
+<p>Elixir Auth</p>
+<p>Apache Spark / ELK</p>
+<p>Semantic queries</p>
+<p>RabbitMQ</p>
+<p>Redis</p>
+</section>
+<section id="to-consider" class="level1">
+<h1>TO CONSIDER</h1>
+<p>A topic for each section on how to train-&gt; local setup (for instance Docker Desktop for K8s or Minikube), online sandboxes (script languages, documentation platforms), collab and JupyterLab… And propose whenever possible-&gt; List wished tutorial as TO DO.</p>
+<p>Choice overflow</p>
+</section>
+<section id="to-check" class="level1">
+<h1>TO CHECK</h1>
+<p>AI to help define a workflow</p>
+</section>
+<section id="concerns" class="level1">
+<h1>CONCERNS</h1>
+<p>On which levels do we try to gain the expertise</p>
+<p>This is a Quarto website.</p>
+<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,247 @@
+[
+  {
+    "objectID": "static_md/tutorials_links.html",
+    "href": "static_md/tutorials_links.html",
+    "title": "Tutorials’ Links",
+    "section": "",
+    "text": "Editing these pages\n\nStackEdit, a Wysiwyg MD editor\n\n\n\nDocker & Docker compose\n\nDocker manual\n\n\n\nOpenStack\n\nYoutube: Introduction to OpenStack\nYoutube: Alternative Introduction to OpenStack\n\n\n\nKubernetes\n\nYoutube: Kubernetes crash course\nTutorials at IBM\n\n\n\nIdentity Management\n\nOauth on Wikipedia\nOpenID\nAAI: Elixir Authentication and Authorization Infrastructure\nAuthentik: a simplified but powerful identity server\nLDAP on Wikipedia\n\n\n\nAnsible\n\nGetting started - Official documentation\n\n\n\nTerraform\n\nTerraform vs Kubernetes\n\n\n\nData Management\n\nDM - Corporate\n\nKnowledge Graphs - SciBite\nWhat is a Semantic Knowledge Graph? - SciBite\n\n\n\nDM - Tools and Apps\n\nOpen Knowledge Foundation – For a fair, sustainable and open future\nCKAN - The open source data management system\nREDCap – Research Electronic Data Capture - Universitätsrechenzentrum Heidelberg\nTool assembly | RDMkit\nTool assembly: Galaxy | RDMkit\nTool assembly: Plant Phenomics | RDMkit\nGitHub - BiBiServ/bibigrid: BiBiGrid is a tool for an easy cluster setup inside a cloud environment.\nVault by HashiCorp\nData Stewardship Wizard\nELIXIR-CONVERGE deliverables | ELIXIR\nELIXIR-CONVERGE | ELIXIR\nAbout - TeSS (Training eSupport System)\nDSW Cloud for ELIXIR\nHome | re3data.org\nCancer Galaxy\nTool assembly: Marine Metagenomics | RDMkit\nMIAPPE\nFAIR Cookbook\nFAIR Wizard\nFAIRsharing | Home\nFAIR Solutions Products\nRucio - Scientific Data Management\nOverture - Home\nGitHub - irods/irods: Open Source Data Management Software\nZenodo - Google Search\nFAIRmat - FAIRmat\nELIXIR CONVERGE WP3: Common Data Management Toolkit | ELIXIR\nNOMAD\nZenodo\nMaterials - OpenWetWare\nDataPLAN, generate a data management plan DMP easily\nAruna | The data orchestration engine\nFAIRshare | FAIR Data Innovations Hub\n\n\n\nDM - Misc\n\nFORCE11 – The Future of Research Communications and e-Scholarship\nNFDI4Biodiversity - YouTube\nData Management and Data Literacy - YouTube\n\n\n\nTechnical tools and languages\n\nDiscover GO\n\n\nWritten with the help of StackEdit."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cloud For Data Management",
+    "section": "",
+    "text": "Documentation, tutorials and overview about Data Management in the Cloud, and to some extent outside the Cloud."
+  },
+  {
+    "objectID": "index.html#what-is-a-data-management-platform",
+    "href": "index.html#what-is-a-data-management-platform",
+    "title": "Cloud For Data Management",
+    "section": "What is a data-management platform",
+    "text": "What is a data-management platform"
+  },
+  {
+    "objectID": "index.html#where-do-you-want-it-to-be",
+    "href": "index.html#where-do-you-want-it-to-be",
+    "title": "Cloud For Data Management",
+    "section": "Where do you want it to be?",
+    "text": "Where do you want it to be?"
+  },
+  {
+    "objectID": "index.html#costs-and-benefits",
+    "href": "index.html#costs-and-benefits",
+    "title": "Cloud For Data Management",
+    "section": "Costs and benefits",
+    "text": "Costs and benefits"
+  },
+  {
+    "objectID": "index.html#introduction-to-security-issues",
+    "href": "index.html#introduction-to-security-issues",
+    "title": "Cloud For Data Management",
+    "section": "Introduction to Security issues",
+    "text": "Introduction to Security issues"
+  },
+  {
+    "objectID": "index.html#major-platforms",
+    "href": "index.html#major-platforms",
+    "title": "Cloud For Data Management",
+    "section": "Major platforms",
+    "text": "Major platforms"
+  },
+  {
+    "objectID": "index.html#medium-platforms",
+    "href": "index.html#medium-platforms",
+    "title": "Cloud For Data Management",
+    "section": "Medium platforms",
+    "text": "Medium platforms"
+  },
+  {
+    "objectID": "index.html#small-platforms-and-others",
+    "href": "index.html#small-platforms-and-others",
+    "title": "Cloud For Data Management",
+    "section": "Small platforms and others",
+    "text": "Small platforms and others"
+  },
+  {
+    "objectID": "index.html#data-management-repositories",
+    "href": "index.html#data-management-repositories",
+    "title": "Cloud For Data Management",
+    "section": "Data Management repositories",
+    "text": "Data Management repositories"
+  },
+  {
+    "objectID": "index.html#data-management-planning-tools",
+    "href": "index.html#data-management-planning-tools",
+    "title": "Cloud For Data Management",
+    "section": "Data Management Planning tools",
+    "text": "Data Management Planning tools"
+  },
+  {
+    "objectID": "index.html#why-it-is-important",
+    "href": "index.html#why-it-is-important",
+    "title": "Cloud For Data Management",
+    "section": "Why it is important",
+    "text": "Why it is important\nResearch Results are useful if the can be used, easily Findable and Accessible, the data output should be Interoperable and Reusable. FAIR is being helped or made possible by the 4 Cs -&gt; Consensus, Curation, Consolidation, Conservation"
+  },
+  {
+    "objectID": "index.html#technical-considerations",
+    "href": "index.html#technical-considerations",
+    "title": "Cloud For Data Management",
+    "section": "Technical considerations",
+    "text": "Technical considerations"
+  },
+  {
+    "objectID": "index.html#non-technical-considerations",
+    "href": "index.html#non-technical-considerations",
+    "title": "Cloud For Data Management",
+    "section": "Non-technical considerations",
+    "text": "Non-technical considerations"
+  },
+  {
+    "objectID": "index.html#datamanagement-planning",
+    "href": "index.html#datamanagement-planning",
+    "title": "Cloud For Data Management",
+    "section": "Datamanagement planning",
+    "text": "Datamanagement planning"
+  },
+  {
+    "objectID": "index.html#toward-provisionning",
+    "href": "index.html#toward-provisionning",
+    "title": "Cloud For Data Management",
+    "section": "Toward provisionning",
+    "text": "Toward provisionning"
+  },
+  {
+    "objectID": "index.html#downloadable-software",
+    "href": "index.html#downloadable-software",
+    "title": "Cloud For Data Management",
+    "section": "Downloadable software",
+    "text": "Downloadable software"
+  },
+  {
+    "objectID": "index.html#on-server-and-virtual-servers",
+    "href": "index.html#on-server-and-virtual-servers",
+    "title": "Cloud For Data Management",
+    "section": "On server and virtual servers",
+    "text": "On server and virtual servers"
+  },
+  {
+    "objectID": "index.html#in-containers",
+    "href": "index.html#in-containers",
+    "title": "Cloud For Data Management",
+    "section": "In Containers",
+    "text": "In Containers"
+  },
+  {
+    "objectID": "index.html#on-virtual-environments",
+    "href": "index.html#on-virtual-environments",
+    "title": "Cloud For Data Management",
+    "section": "On virtual environments",
+    "text": "On virtual environments\nProxmox, VMware & clusters\nAnsible & Terraform, Slurm"
+  },
+  {
+    "objectID": "index.html#on-the-cloud-without-orchestration",
+    "href": "index.html#on-the-cloud-without-orchestration",
+    "title": "Cloud For Data Management",
+    "section": "On the Cloud, without orchestration",
+    "text": "On the Cloud, without orchestration\nVM\nContainers ~ to virtual envs"
+  },
+  {
+    "objectID": "index.html#orchestrated-introduction-to-kubernetes",
+    "href": "index.html#orchestrated-introduction-to-kubernetes",
+    "title": "Cloud For Data Management",
+    "section": "Orchestrated, introduction to Kubernetes",
+    "text": "Orchestrated, introduction to Kubernetes"
+  },
+  {
+    "objectID": "index.html#planning-for-disaster-other-term-less-dramatic",
+    "href": "index.html#planning-for-disaster-other-term-less-dramatic",
+    "title": "Cloud For Data Management",
+    "section": "Planning for disaster (other term less dramatic?)",
+    "text": "Planning for disaster (other term less dramatic?)"
+  },
+  {
+    "objectID": "index.html#backups-and-recovery",
+    "href": "index.html#backups-and-recovery",
+    "title": "Cloud For Data Management",
+    "section": "Backups and Recovery",
+    "text": "Backups and Recovery\nTry to check a full recovery from a really blank software stack -&gt; doing a recovery using a local setup might miss another needed backup."
+  },
+  {
+    "objectID": "index.html#why---creating-a-workflow",
+    "href": "index.html#why---creating-a-workflow",
+    "title": "Cloud For Data Management",
+    "section": "Why -> creating a workflow",
+    "text": "Why -&gt; creating a workflow"
+  },
+  {
+    "objectID": "index.html#how",
+    "href": "index.html#how",
+    "title": "Cloud For Data Management",
+    "section": "How",
+    "text": "How"
+  },
+  {
+    "objectID": "index.html#making-things-easier",
+    "href": "index.html#making-things-easier",
+    "title": "Cloud For Data Management",
+    "section": "Making things easier",
+    "text": "Making things easier"
+  },
+  {
+    "objectID": "index.html#benefits",
+    "href": "index.html#benefits",
+    "title": "Cloud For Data Management",
+    "section": "Benefits",
+    "text": "Benefits"
+  },
+  {
+    "objectID": "index.html#costs",
+    "href": "index.html#costs",
+    "title": "Cloud For Data Management",
+    "section": "Costs",
+    "text": "Costs\nMore dependencies Added complexity\nHidden complexity Containers are not as secure as isolated virtual machine for their host. An issue is the isolation mechanism could allow an attack on the host."
+  },
+  {
+    "objectID": "index.html#the-limits-of-exchange",
+    "href": "index.html#the-limits-of-exchange",
+    "title": "Cloud For Data Management",
+    "section": "The limits of exchange",
+    "text": "The limits of exchange\n\nFormats\n\n\nPrivacy\n\n\nSecurity"
+  },
+  {
+    "objectID": "index.html#r",
+    "href": "index.html#r",
+    "title": "Cloud For Data Management",
+    "section": "R",
+    "text": "R"
+  },
+  {
+    "objectID": "index.html#go",
+    "href": "index.html#go",
+    "title": "Cloud For Data Management",
+    "section": "Go",
+    "text": "Go"
+  },
+  {
+    "objectID": "index.html#scilab",
+    "href": "index.html#scilab",
+    "title": "Cloud For Data Management",
+    "section": "Scilab",
+    "text": "Scilab"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "General information, tutorials, tips and warning about Data Management within a Cloud. It also apply to non-Cloud environment, and will present the different possibilities, from server based installation to a cloud-based setup of interconnected tools. The various solutions, issues and characteristic of Cloud will also be covered."
+  },
+  {
+    "objectID": "pages/TowardProvisionning.html",
+    "href": "pages/TowardProvisionning.html",
+    "title": "Toward provisionning",
+    "section": "",
+    "text": "One important aspect of Software usage is the targeted use:\n\nthe importance of it and of its data: if it is main output of a project, if it is patient-related data, …\nthe scope of usage: for local users only, for the public, for the founding members, for the time of the project, for X years,\nand the variety of usage: consultation only, API usage, export using standardised data, …\n\nAll that has a great influence on the provisionning needed, for needed persons:\n\ncritical data might need the involvement of a cybersecurity engineer,\npersonal data (about persons) might need a data protection specialist or some compliance assessments,\nSoftware that need to run after the end of the project might need a dedicated sys-admin for the planned time,\nSpecific Data usage might need a Software Engineer to adapt, prepare and explain,\n\nBut also for needed technical solution:\n\nA physical server or a Cloud to host the Software, its data and backups,\nSome extra Software such as an Identity Server, so that users are centrally managed,\nA regular backup,\nA monitoring of the logs (access logs, software logs, …) for ** or attacks, an unknown anomaly could be the result of an attack,\nA monitoring of the installed ressources, to be sure there was no malicious tinckering,\nSet-up of automatic updates,\nAuthorized-lists and Nonauthorized-lists, Firewall rules,\nAudit of security,"
+  }
+]
