@@ -18,7 +18,7 @@
     "href": "index.html#what-is-a-data-management-platform",
     "title": "Cloud For Data Management",
     "section": "What is a data-management platform",
-    "text": "What is a data-management platform"
+    "text": "What is a data-management platform\nA Data-Management platform is a software that store your (research) data in a way it can be used, reused and shared in the most efficient way. They often support standard data formats, meta-data formats, sometimes follow a standard schema, such as ISA (Investigations, Studies, Assays), and might support standard Ontologies, such as those listed on OLS.\nThe word “standard” is not repeated by mistake, a good data-management platform should deal mostly with standard formats, so that nothing is new or unknown for an external user. However, it does not mean that the software is only dealing with standard data format, but there should be a clear way to get the format following a standard.\nAn in-depth description of data-management is presented on RDM Kit, and most training material are listed on TESS"
   },
   {
     "objectID": "index.html#where-do-you-want-it-to-be",
@@ -102,7 +102,7 @@
     "href": "index.html#datamanagement-planning",
     "title": "Cloud For Data Management",
     "section": "Datamanagement planning",
-    "text": "Datamanagement planning"
+    "text": "Datamanagement planning\nThe Elixir FAIR Cookbook"
   },
   {
     "objectID": "index.html#toward-provisionning",
