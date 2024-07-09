@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/TowardProvisionning.html</loc>
-    <lastmod>2024-07-09T14:55:53.672Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/index.html</loc>
-    <lastmod>2024-07-09T14:55:53.672Z</lastmod>
-  </url>
-  <url>
     <loc>https://abecam.github.io/CloudForDM/static_md/tutorials_links.html</loc>
-    <lastmod>2024-07-09T14:55:53.672Z</lastmod>
+    <lastmod>2024-07-09T15:48:58.910Z</lastmod>
   </url>
   <url>
     <loc>https://abecam.github.io/CloudForDM/about.html</loc>
-    <lastmod>2024-07-09T14:55:53.672Z</lastmod>
+    <lastmod>2024-07-09T15:48:58.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MajorPlatforms.html</loc>
+    <lastmod>2024-07-09T15:48:58.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/TowardProvisionning.html</loc>
+    <lastmod>2024-07-09T15:48:58.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/index.html</loc>
+    <lastmod>2024-07-09T15:48:58.910Z</lastmod>
   </url>
 </urlset>
