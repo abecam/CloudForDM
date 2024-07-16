@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://abecam.github.io/CloudForDM/static_md/tutorials_links.html</loc>
-    <lastmod>2024-07-10T13:08:12.579Z</lastmod>
+    <lastmod>2024-07-16T18:00:17.104Z</lastmod>
   </url>
   <url>
-    <loc>https://abecam.github.io/CloudForDM/about.html</loc>
-    <lastmod>2024-07-10T13:08:12.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/formats.html</loc>
-    <lastmod>2024-07-10T13:08:12.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_UsefulToolsAndPlatforms.html</loc>
-    <lastmod>2024-07-10T13:08:12.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MajorPlatforms.html</loc>
-    <lastmod>2024-07-10T13:08:12.579Z</lastmod>
+    <loc>https://abecam.github.io/CloudForDM/to_sort.html</loc>
+    <lastmod>2024-07-16T18:00:17.104Z</lastmod>
   </url>
   <url>
     <loc>https://abecam.github.io/CloudForDM/pages/TowardProvisionning.html</loc>
-    <lastmod>2024-07-10T13:08:12.579Z</lastmod>
+    <lastmod>2024-07-16T18:00:17.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MajorPlatforms.html</loc>
+    <lastmod>2024-07-16T18:00:17.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_UsefulToolsAndPlatforms.html</loc>
+    <lastmod>2024-07-16T18:00:17.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/formats.html</loc>
+    <lastmod>2024-07-16T18:00:17.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/about.html</loc>
+    <lastmod>2024-07-16T18:00:17.104Z</lastmod>
   </url>
   <url>
     <loc>https://abecam.github.io/CloudForDM/index.html</loc>
-    <lastmod>2024-07-10T13:08:12.579Z</lastmod>
+    <lastmod>2024-07-16T18:00:17.104Z</lastmod>
   </url>
 </urlset>
