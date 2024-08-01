@@ -249,91 +249,143 @@
     "href": "pages/DataManagement_MajorPlatforms.html",
     "title": "Major Data Management platforms",
     "section": "",
-    "text": "Docker Image\nHelm chart\n\n\n\nDocker Compose(one instance on one server!)\n\n\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”"
+    "text": "Docker Image\nHelm chart\n\n\n\nDocker Compose(one instance on one server!)\n\n\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#omero",
     "href": "pages/DataManagement_MajorPlatforms.html#omero",
     "title": "Major Data Management platforms",
     "section": "",
-    "text": "Docker Image\nHelm chart"
+    "text": "Docker Image\nHelm chart",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#seek",
     "href": "pages/DataManagement_MajorPlatforms.html#seek",
     "title": "Major Data Management platforms",
     "section": "",
-    "text": "Docker Compose(one instance on one server!)"
+    "text": "Docker Compose(one instance on one server!)",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#aruna-object-storage-aos",
     "href": "pages/DataManagement_MajorPlatforms.html#aruna-object-storage-aos",
     "title": "Major Data Management platforms",
     "section": "",
-    "text": "“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”"
+    "text": "“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#nomad",
     "href": "pages/DataManagement_MajorPlatforms.html#nomad",
     "title": "Major Data Management platforms",
     "section": "NOMAD",
-    "text": "NOMAD"
+    "text": "NOMAD",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#openbis",
     "href": "pages/DataManagement_MajorPlatforms.html#openbis",
     "title": "Major Data Management platforms",
     "section": "OpenBis",
-    "text": "OpenBis"
+    "text": "OpenBis",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#elabftw",
     "href": "pages/DataManagement_MajorPlatforms.html#elabftw",
     "title": "Major Data Management platforms",
     "section": "eLabFTW",
-    "text": "eLabFTW\nDocker"
+    "text": "eLabFTW\nDocker",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#zotero-is-free-and-open-source-reference-management-software-to-manage-bibliographic-data-and-related-research-materials",
     "href": "pages/DataManagement_MajorPlatforms.html#zotero-is-free-and-open-source-reference-management-software-to-manage-bibliographic-data-and-related-research-materials",
     "title": "Major Data Management platforms",
     "section": "“Zotero is free and open-source reference management software to manage bibliographic data and related research materials",
-    "text": "“Zotero is free and open-source reference management software to manage bibliographic data and related research materials"
+    "text": "“Zotero is free and open-source reference management software to manage bibliographic data and related research materials",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#rdmo---research-data-management-organiser",
     "href": "pages/DataManagement_MajorPlatforms.html#rdmo---research-data-management-organiser",
     "title": "Major Data Management platforms",
     "section": "RDMO - Research Data Management Organiser",
-    "text": "RDMO - Research Data Management Organiser"
+    "text": "RDMO - Research Data Management Organiser",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#the-comprehensive-knowledge-archive-network-ckan-is-an-open-source-open-data-portal-for-the-storage-and-distribution-of-open-data-wikipedia",
     "href": "pages/DataManagement_MajorPlatforms.html#the-comprehensive-knowledge-archive-network-ckan-is-an-open-source-open-data-portal-for-the-storage-and-distribution-of-open-data-wikipedia",
     "title": "Major Data Management platforms",
     "section": "The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)",
-    "text": "The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)"
+    "text": "The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#dataverse-an-open-source-research-data-repository-software",
     "href": "pages/DataManagement_MajorPlatforms.html#dataverse-an-open-source-research-data-repository-software",
     "title": "Major Data Management platforms",
     "section": "Dataverse, an open source research data repository software",
-    "text": "Dataverse, an open source research data repository software"
+    "text": "Dataverse, an open source research data repository software",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#zenodo-is-a-general-purpose-open-repository-developed-under-the-european-openaire-program-and-operated-by-cern",
     "href": "pages/DataManagement_MajorPlatforms.html#zenodo-is-a-general-purpose-open-repository-developed-under-the-european-openaire-program-and-operated-by-cern",
     "title": "Major Data Management platforms",
     "section": "“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”",
-    "text": "“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”"
+    "text": "“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#nextcloud",
     "href": "pages/DataManagement_MajorPlatforms.html#nextcloud",
     "title": "Major Data Management platforms",
     "section": "NextCloud",
-    "text": "NextCloud\nNextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.\nHelm chart"
+    "text": "NextCloud\nNextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.\nHelm chart",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/TowardProvisionning.html",
@@ -365,14 +417,22 @@
     "href": "pages/DataManagement_UsefulToolsAndPlatforms.html",
     "title": "Useful tools and platforms for Data Management",
     "section": "",
-    "text": "To be part of an assembly\nAuthentik is a central authority provider.\nKeycloak\nAuthelia\n\n\nAs extra of a solution or an assembly\nHeimdall is n web-application that provide a dashboard on other web-applications\n[GreyLog]\n\n\nFor tutorials\nDocumentations systems\nJupyterLab\nCollab\nWebTop, “Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.”"
+    "text": "To be part of an assembly\nAuthentik is a central authority provider.\nKeycloak\nAuthelia\n\n\nAs extra of a solution or an assembly\nHeimdall is n web-application that provide a dashboard on other web-applications\n[GreyLog]\n\n\nFor tutorials\nDocumentations systems\nJupyterLab\nCollab\nWebTop, “Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.”",
+    "crumbs": [
+      "Home",
+      "Useful tools and platforms for Data Management"
+    ]
   },
   {
     "objectID": "pages/DataManagement_MediumPlatforms.html#open-contracts",
     "href": "pages/DataManagement_MediumPlatforms.html#open-contracts",
     "title": "Medium Data Management platforms",
     "section": "Open Contracts",
-    "text": "Open Contracts"
+    "text": "Open Contracts",
+    "crumbs": [
+      "Home",
+      "Medium Data Management platforms"
+    ]
   },
   {
     "objectID": "pages/formats.html",
@@ -386,7 +446,7 @@
     "href": "to_investigate.html",
     "title": "Scrap page: things to investigate",
     "section": "",
-    "text": "Check EBI tools\nWebdav\nPresentation DM: https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html\nhttps://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines\nCheck what happened with https://en.wikipedia.org/wiki/Clarivate\nhttps://github.com/minio/minio\nhttps://www.thehyve.nl/services/rdm-engineering-services\nhttps://www.ufz.de/index.php?en=50440\nhttps://github.com/opendatateam\nhttps://www.re3data.org/\nhttps://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de",
+    "text": "Check EBI tools\nWebdav\nPresentation DM: (https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html)\n(https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines)\nCheck what happened with (https://en.wikipedia.org/wiki/Clarivate)\n(https://github.com/minio/minio)\n(https://www.thehyve.nl/services/rdm-engineering-services)\n(https://www.ufz.de/index.php?en=50440)\n(https://github.com/opendatateam)\n(https://www.re3data.org/)\n(https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)\nLaw: (https://www.openjustitia.ch/FR/interne_Open_Justitia.html)",
     "crumbs": [
       "Home",
       "Scrap page: things to investigate"
