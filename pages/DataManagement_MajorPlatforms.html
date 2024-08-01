@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>datamanagement_majorplatforms – CloudForDMQ</title>
+<title>Major Data Management platforms – CloudForDMQ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -118,13 +118,18 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#for-life-science" id="toc-for-life-science" class="nav-link active" data-scroll-target="#for-life-science">For Life Science</a>
   <ul class="collapse">
-  <li><a href="#openbis" id="toc-openbis" class="nav-link" data-scroll-target="#openbis">OpenBis</a></li>
   <li><a href="#omero" id="toc-omero" class="nav-link" data-scroll-target="#omero">Omero</a></li>
   <li><a href="#seek" id="toc-seek" class="nav-link" data-scroll-target="#seek">Seek</a></li>
+  <li><a href="#aruna-object-storage-aos" id="toc-aruna-object-storage-aos" class="nav-link" data-scroll-target="#aruna-object-storage-aos">Aruna Object Storage (AOS)</a></li>
   </ul></li>
   <li><a href="#materials-science" id="toc-materials-science" class="nav-link" data-scroll-target="#materials-science">Materials science</a>
   <ul class="collapse">
   <li><a href="#nomad" id="toc-nomad" class="nav-link" data-scroll-target="#nomad">NOMAD</a></li>
+  </ul></li>
+  <li><a href="#digital-lab-notebooks" id="toc-digital-lab-notebooks" class="nav-link" data-scroll-target="#digital-lab-notebooks">Digital Lab Notebooks</a>
+  <ul class="collapse">
+  <li><a href="#openbis" id="toc-openbis" class="nav-link" data-scroll-target="#openbis">OpenBis</a></li>
+  <li><a href="#elabftw" id="toc-elabftw" class="nav-link" data-scroll-target="#elabftw">eLabFTW</a></li>
   </ul></li>
   <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a>
   <ul class="collapse">
@@ -132,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#generalists" id="toc-generalists" class="nav-link" data-scroll-target="#generalists">Generalists</a>
   <ul class="collapse">
+  <li><a href="#rdmo---research-data-management-organiser" id="toc-rdmo---research-data-management-organiser" class="nav-link" data-scroll-target="#rdmo---research-data-management-organiser">RDMO - Research Data Management Organiser</a></li>
   <li><a href="#the-comprehensive-knowledge-archive-network-ckan-is-an-open-source-open-data-portal-for-the-storage-and-distribution-of-open-data-wikipedia" id="toc-the-comprehensive-knowledge-archive-network-ckan-is-an-open-source-open-data-portal-for-the-storage-and-distribution-of-open-data-wikipedia" class="nav-link" data-scroll-target="#the-comprehensive-knowledge-archive-network-ckan-is-an-open-source-open-data-portal-for-the-storage-and-distribution-of-open-data-wikipedia">The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)</a></li>
   <li><a href="#dataverse-an-open-source-research-data-repository-software" id="toc-dataverse-an-open-source-research-data-repository-software" class="nav-link" data-scroll-target="#dataverse-an-open-source-research-data-repository-software">Dataverse, an open source research data repository software</a></li>
   <li><a href="#zenodo-is-a-general-purpose-open-repository-developed-under-the-european-openaire-program-and-operated-by-cern" id="toc-zenodo-is-a-general-purpose-open-repository-developed-under-the-european-openaire-program-and-operated-by-cern" class="nav-link" data-scroll-target="#zenodo-is-a-general-purpose-open-repository-developed-under-the-european-openaire-program-and-operated-by-cern">“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”</a></li>
@@ -146,14 +152,27 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Major Data Management platforms</h1>
+</div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="for-life-science" class="level1">
 <h1>For Life Science</h1>
-<section id="openbis" class="level2">
-<h2 class="anchored" data-anchor-id="openbis"><a href="https://openbis.ch/">OpenBis</a></h2>
-</section>
 <section id="omero" class="level2">
 <h2 class="anchored" data-anchor-id="omero"><a href="https://www.openmicroscopy.org/omero/">Omero</a></h2>
 <p><a href="https://hub.docker.com/r/openmicroscopy/omero-web-standalone">Docker Image</a></p>
@@ -161,12 +180,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="seek" class="level2">
 <h2 class="anchored" data-anchor-id="seek"><a href="https://seek4science.org/">Seek</a></h2>
+<p><a href="https://docs.seek4science.org/tech/docker/docker-compose.html">Docker Compose(one instance on one server!)</a></p>
+</section>
+<section id="aruna-object-storage-aos" class="level2">
+<h2 class="anchored" data-anchor-id="aruna-object-storage-aos"><a href="https://aruna-storage.org/">Aruna Object Storage (AOS)</a></h2>
+<p>“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”</p>
 </section>
 </section>
 <section id="materials-science" class="level1">
 <h1>Materials science</h1>
 <section id="nomad" class="level2">
 <h2 class="anchored" data-anchor-id="nomad"><a href="https://nomad-lab.eu/nomad-lab/">NOMAD</a></h2>
+</section>
+</section>
+<section id="digital-lab-notebooks" class="level1">
+<h1>Digital Lab Notebooks</h1>
+<section id="openbis" class="level2">
+<h2 class="anchored" data-anchor-id="openbis"><a href="https://openbis.ch/">OpenBis</a></h2>
+</section>
+<section id="elabftw" class="level2">
+<h2 class="anchored" data-anchor-id="elabftw"><a href="https://www.elabftw.net/">eLabFTW</a></h2>
+<p><a href="https://doc.elabftw.net/install.html">Docker</a></p>
 </section>
 </section>
 <section id="bibliography" class="level1">
@@ -177,6 +211,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="generalists" class="level1">
 <h1>Generalists</h1>
+<section id="rdmo---research-data-management-organiser" class="level2">
+<h2 class="anchored" data-anchor-id="rdmo---research-data-management-organiser"><a href="https://rdmorganiser.github.io/en/">RDMO - Research Data Management Organiser</a></h2>
+</section>
 <section id="the-comprehensive-knowledge-archive-network-ckan-is-an-open-source-open-data-portal-for-the-storage-and-distribution-of-open-data-wikipedia" class="level2">
 <h2 class="anchored" data-anchor-id="the-comprehensive-knowledge-archive-network-ckan-is-an-open-source-open-data-portal-for-the-storage-and-distribution-of-open-data-wikipedia"><a href="https://ckan.org/">The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)</a></h2>
 </section>
