@@ -168,6 +168,13 @@
     "text": "Backups and Recovery\nTry to check a full recovery from a really blank software stack -&gt; doing a recovery using a local setup might miss another needed backup."
   },
   {
+    "objectID": "index.html#extending-kubernetes",
+    "href": "index.html#extending-kubernetes",
+    "title": "Cloud For Data Management",
+    "section": "Extending Kubernetes",
+    "text": "Extending Kubernetes\nCode to manifest: https://cdk8s.io/"
+  },
+  {
     "objectID": "index.html#why---creating-a-workflow",
     "href": "index.html#why---creating-a-workflow",
     "title": "Cloud For Data Management",
