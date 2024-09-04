@@ -2,45 +2,45 @@
   {
     "objectID": "pages/DataManagement_MediumPlatforms.html",
     "href": "pages/DataManagement_MediumPlatforms.html",
-    "title": "Medium Data Management platforms",
+    "title": "DeKCD - Medium Data Management platforms - Draft",
     "section": "",
     "text": "For Life Science\n\nNextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\n\n\nDocuments\n\nOpen Contracts\n\n\n\nBibliography\n\nILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)\n\n\n\nGeneralists\n\nCoscine, Research Data Management platform, based on RDS",
     "crumbs": [
       "Home",
-      "Medium Data Management platforms"
+      "DeKCD - Medium Data Management platforms - Draft"
     ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html",
     "href": "pages/DataManagement_MajorPlatforms.html",
-    "title": "Major Data Management platforms",
+    "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "",
     "text": "Omero\n\nOmero is an open source imaging platform for microscopy outputs.\nDocker Image\nHelm chart\n\nSeek\n\nDocker Compose(one instance on one server!)\n\nAruna Object Storage (AOS)\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”\n\nXNAT\n\nXNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). Presentation on usage\nDocker Compose\n\nREDCap – Research Electronic Data Capture\n\nFree for non-profit institutions but not Open Source, available upon request.\n\n\n\n\nOracle Clinical, an Electronic Health Record and Data Management platform\nMediData, a set of platforms for clinical trials, Electronic Health Record and Data management\nCastor, Electronic Health Record",
     "crumbs": [
       "Home",
-      "Major Data Management platforms"
+      "DeKCD - Major Data Management platforms - Draft"
     ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#open-source-or-free",
     "href": "pages/DataManagement_MajorPlatforms.html#open-source-or-free",
-    "title": "Major Data Management platforms",
+    "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "",
     "text": "Omero\n\nOmero is an open source imaging platform for microscopy outputs.\nDocker Image\nHelm chart\n\nSeek\n\nDocker Compose(one instance on one server!)\n\nAruna Object Storage (AOS)\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”\n\nXNAT\n\nXNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). Presentation on usage\nDocker Compose\n\nREDCap – Research Electronic Data Capture\n\nFree for non-profit institutions but not Open Source, available upon request.",
     "crumbs": [
       "Home",
-      "Major Data Management platforms"
+      "DeKCD - Major Data Management platforms - Draft"
     ]
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html#commercials",
     "href": "pages/DataManagement_MajorPlatforms.html#commercials",
-    "title": "Major Data Management platforms",
+    "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "",
     "text": "Oracle Clinical, an Electronic Health Record and Data Management platform\nMediData, a set of platforms for clinical trials, Electronic Health Record and Data management\nCastor, Electronic Health Record",
     "crumbs": [
       "Home",
-      "Major Data Management platforms"
+      "DeKCD - Major Data Management platforms - Draft"
     ]
   },
   {
@@ -89,238 +89,238 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "",
     "text": "Documentation, tutorials and overview about Data Management in the Cloud, and to some extent outside the Cloud."
   },
   {
     "objectID": "index.html#what-is-a-data-management-platform",
     "href": "index.html#what-is-a-data-management-platform",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "What is a data-management platform",
     "text": "What is a data-management platform\nA Data-Management platform is a software that store your (research) data in a way it can be used, reused and shared in the most efficient way. They often support standard data formats, meta-data formats, sometimes follow a standard schema, such as ISA (Investigations, Studies, Assays), and might support standard Ontologies, such as those listed on OLS.\nThe word “standard” is not repeated by mistake, a good data-management platform should deal mostly with standard formats, so that nothing is new or unknown for an external user. However, it does not mean that the software is only dealing with standard data format, but there should be a clear way to get the format following a standard.\nAn in-depth description of data-management is presented on RDM Kit, and most training material are listed on TESS"
   },
   {
     "objectID": "index.html#where-do-you-want-it-to-be",
     "href": "index.html#where-do-you-want-it-to-be",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Where do you want it to be?",
     "text": "Where do you want it to be?"
   },
   {
     "objectID": "index.html#costs-and-benefits",
     "href": "index.html#costs-and-benefits",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Costs and benefits",
     "text": "Costs and benefits"
   },
   {
     "objectID": "index.html#introduction-to-security-issues",
     "href": "index.html#introduction-to-security-issues",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Introduction to Security issues",
     "text": "Introduction to Security issues"
   },
   {
     "objectID": "index.html#major-platforms",
     "href": "index.html#major-platforms",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Major platforms",
     "text": "Major platforms"
   },
   {
     "objectID": "index.html#medium-platforms",
     "href": "index.html#medium-platforms",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Medium platforms",
     "text": "Medium platforms"
   },
   {
     "objectID": "index.html#small-platforms-and-others",
     "href": "index.html#small-platforms-and-others",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Small platforms and others",
     "text": "Small platforms and others"
   },
   {
     "objectID": "index.html#data-management-repositories",
     "href": "index.html#data-management-repositories",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Data Management repositories",
     "text": "Data Management repositories"
   },
   {
     "objectID": "index.html#data-management-planning-tools",
     "href": "index.html#data-management-planning-tools",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Data Management Planning tools",
     "text": "Data Management Planning tools"
   },
   {
     "objectID": "index.html#useful-tools-and-platforms-for-data-management",
     "href": "index.html#useful-tools-and-platforms-for-data-management",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Useful Tools and Platforms for Data Management",
     "text": "Useful Tools and Platforms for Data Management"
   },
   {
     "objectID": "index.html#why-it-is-important",
     "href": "index.html#why-it-is-important",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Why it is important",
     "text": "Why it is important\nResearch Results are useful if the can be used, easily Findable and Accessible, the data output should be Interoperable and Reusable. FAIR is being helped or made possible by the 4 Cs -&gt; Consensus, Curation, Consolidation, Conservation"
   },
   {
     "objectID": "index.html#technical-considerations",
     "href": "index.html#technical-considerations",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Technical considerations",
     "text": "Technical considerations"
   },
   {
     "objectID": "index.html#non-technical-considerations",
     "href": "index.html#non-technical-considerations",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Non-technical considerations",
     "text": "Non-technical considerations"
   },
   {
     "objectID": "index.html#datamanagement-planning",
     "href": "index.html#datamanagement-planning",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Datamanagement planning",
     "text": "Datamanagement planning\nThe Elixir FAIR Cookbook"
   },
   {
     "objectID": "index.html#toward-provisionning",
     "href": "index.html#toward-provisionning",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Toward provisionning",
     "text": "Toward provisionning"
   },
   {
     "objectID": "index.html#downloadable-software",
     "href": "index.html#downloadable-software",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Downloadable software",
     "text": "Downloadable software"
   },
   {
     "objectID": "index.html#on-server-and-virtual-servers",
     "href": "index.html#on-server-and-virtual-servers",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "On server and virtual servers",
     "text": "On server and virtual servers"
   },
   {
     "objectID": "index.html#in-containers",
     "href": "index.html#in-containers",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "In Containers",
     "text": "In Containers"
   },
   {
     "objectID": "index.html#on-virtual-environments",
     "href": "index.html#on-virtual-environments",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "On virtual environments",
     "text": "On virtual environments\nProxmox, VMware & clusters\nAnsible & Terraform, Slurm"
   },
   {
     "objectID": "index.html#on-the-cloud-without-orchestration",
     "href": "index.html#on-the-cloud-without-orchestration",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "On the Cloud, without orchestration",
     "text": "On the Cloud, without orchestration\nVM\nContainers ~ to virtual envs"
   },
   {
     "objectID": "index.html#orchestrated-introduction-to-kubernetes",
     "href": "index.html#orchestrated-introduction-to-kubernetes",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Orchestrated, introduction to Kubernetes",
     "text": "Orchestrated, introduction to Kubernetes"
   },
   {
     "objectID": "index.html#planning-for-disaster-other-term-less-dramatic",
     "href": "index.html#planning-for-disaster-other-term-less-dramatic",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Planning for disaster (other term less dramatic?)",
     "text": "Planning for disaster (other term less dramatic?)"
   },
   {
     "objectID": "index.html#backups-and-recovery",
     "href": "index.html#backups-and-recovery",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Backups and Recovery",
     "text": "Backups and Recovery\nTry to check a full recovery from a really blank software stack -&gt; doing a recovery using a local setup might miss another needed backup."
   },
   {
     "objectID": "index.html#extending-kubernetes",
     "href": "index.html#extending-kubernetes",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Extending Kubernetes",
     "text": "Extending Kubernetes\nCode to manifest: https://cdk8s.io/"
   },
   {
     "objectID": "index.html#why---creating-a-workflow",
     "href": "index.html#why---creating-a-workflow",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Why -> creating a workflow",
     "text": "Why -&gt; creating a workflow"
   },
   {
     "objectID": "index.html#how",
     "href": "index.html#how",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "How",
     "text": "How"
   },
   {
     "objectID": "index.html#making-things-easier",
     "href": "index.html#making-things-easier",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Making things easier",
     "text": "Making things easier"
   },
   {
     "objectID": "index.html#benefits",
     "href": "index.html#benefits",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Benefits",
     "text": "Benefits"
   },
   {
     "objectID": "index.html#costs",
     "href": "index.html#costs",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Costs",
     "text": "Costs\nMore dependencies Added complexity\nHidden complexity Containers are not as secure as isolated virtual machine for their host. An issue is the isolation mechanism could allow an attack on the host."
   },
   {
     "objectID": "index.html#the-limits-of-exchange",
     "href": "index.html#the-limits-of-exchange",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "The limits of exchange",
     "text": "The limits of exchange\n\nFormats\n\n\nPrivacy\n\n\nSecurity"
   },
   {
     "objectID": "index.html#r",
     "href": "index.html#r",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "R",
     "text": "R"
   },
   {
     "objectID": "index.html#go",
     "href": "index.html#go",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Go",
     "text": "Go"
   },
   {
     "objectID": "index.html#scilab",
     "href": "index.html#scilab",
-    "title": "Cloud For Data Management",
+    "title": "DeKCD - Cloud For Data Management",
     "section": "Scilab",
     "text": "Scilab"
   },
