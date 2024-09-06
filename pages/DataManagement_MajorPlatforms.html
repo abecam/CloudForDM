@@ -177,7 +177,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#for-life-science" id="toc-for-life-science" class="nav-link active" data-scroll-target="#for-life-science">For Life Science</a>
+  <li><a href="#progress" id="toc-progress" class="nav-link active" data-scroll-target="#progress">Progress</a></li>
+  <li><a href="#for-life-science" id="toc-for-life-science" class="nav-link" data-scroll-target="#for-life-science">For Life Science</a>
   <ul class="collapse">
   <li><a href="#open-source-or-free" id="toc-open-source-or-free" class="nav-link" data-scroll-target="#open-source-or-free">Open Source or free</a></li>
   <li><a href="#commercials" id="toc-commercials" class="nav-link" data-scroll-target="#commercials">Commercials</a></li>
@@ -218,6 +219,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="progress" class="level2">
+<h2 class="anchored" data-anchor-id="progress">Progress</h2>
+<ul>
+<li><p>TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).</p></li>
+<li><p>Missing: pharmaceutical, urbanism, astronomy (seems to be online catalogues and desktop tools mostly), controlled vocabulary (most listed <a href="https://github.com/gbv/bartoc.org/wiki/Software-for-controlled-vocabularies">here</a>)</p></li>
+<li><p>Incomplete: geomatics</p></li>
+</ul>
+</section>
 <section id="for-life-science" class="level2">
 <h2 class="anchored" data-anchor-id="for-life-science">For Life Science</h2>
 <section id="open-source-or-free" class="level3">
@@ -226,12 +235,16 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://www.openmicroscopy.org/omero/">Omero</a></li>
 </ul>
 <p>Omero is an open source imaging platform for microscopy outputs.</p>
+<p>Extensive API.</p>
 <p><a href="https://hub.docker.com/r/openmicroscopy/omero-web-standalone">Docker Image</a></p>
 <p><a href="https://github.com/manics/kubernetes-omero">Helm chart</a></p>
 <ul>
 <li><a href="https://seek4science.org/">Seek</a></li>
 </ul>
 <p><a href="https://docs.seek4science.org/tech/docker/docker-compose.html">Docker Compose(one instance on one server!)</a></p>
+<p>Extensive API.</p>
+<p>Related:</p>
+<p>** <a href="https://jermontology.org/">Just Enough Results Model (JERM)</a></p>
 <ul>
 <li><a href="https://aruna-storage.org/">Aruna Object Storage (AOS)</a></li>
 </ul>
@@ -240,11 +253,19 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://www.xnat.org/">XNAT</a></li>
 </ul>
 <p>XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM &amp; NIfTI). <a href="https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de">Presentation on usage</a></p>
+<p>Extensive API.</p>
 <p><a href="https://github.com/NrgXnat/xnat-docker-compose">Docker Compose</a></p>
 <ul>
 <li><a href="https://www.project-redcap.org/">REDCap – Research Electronic Data Capture</a></li>
 </ul>
 <p>Free for non-profit institutions but not Open Source, available upon request.</p>
+<p>Extensive API.</p>
+<ul>
+<li><p><a href="http://isa-tools.org">ISA format, set of format and related tools for bioscience experiment</a></p></li>
+<li><p><a href="https://rightfield.org.uk/">RightField</a></p></li>
+<li><p><a href="https://crs4.github.io/life_monitor/">“LifeMonitor is a service to support the sustainability and reusability of published computational workflows”</a></p></li>
+<li><p><a href="https://docs.bioconnect.jax.org/">JAX BioConnect</a></p></li>
+</ul>
 </section>
 <section id="commercials" class="level3">
 <h3 class="anchored" data-anchor-id="commercials">Commercials</h3>
@@ -260,6 +281,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://nomad-lab.eu/nomad-lab/">NOMAD, management and sharing of material science data (online)</a></li>
 </ul>
+<p>Extensive API.</p>
 <p>With many <a href="https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat">tutorials</a>, also on <a href="https://www.youtube.com/watch?v=FqTTeAgqiuw">Youtube</a></p>
 <ul>
 <li><a href="https://pyiron.org/">pyiron, compley workflow made based on JupiterLab</a> and <a href="https://github.com/pyiron/pyiron_workflow">pyiron workflow</a> with many <a href="https://github.com/pyiron">extensions</a></li>
@@ -269,6 +291,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://heliport.hzdr.de/">HELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle</a></li>
 </ul>
 <p>No container-based installation.</p>
+<p>Extensive API and extensions support.</p>
 </section>
 <section id="geomatics" class="level2">
 <h2 class="anchored" data-anchor-id="geomatics">Geomatics</h2>
@@ -278,10 +301,12 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://geoserver.org/">GeoServer, “an open source server for sharing geospatial data”</a></li>
 </ul>
 <p>No container-based installation.</p>
+<p>Extensive API and many extensions.</p>
 <ul>
 <li><a href="https://www.osgeo.org/projects/mapguide-open-source/">MapGuide Open Source, ” a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services.”</a> and <a href="https://mapserver.org/">MapServer, a mapping engine</a>, part of a large portofolio of <a href="https://www.osgeo.org/">Geospatial tools</a></li>
 </ul>
 <p>No container-based installation.</p>
+<p>Extensive API via the related tools.</p>
 <ul>
 <li><a href="https://mapnik.org/">Mapnik, open-source mapping toolkit</a></li>
 </ul>
@@ -290,28 +315,39 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://arangodb.com/">ArangoDB, open-source and commercial graph and spatial database</a></li>
 </ul>
 <p><a href="https://arangodb.com/download-major/">Docker and Kubernetes installations</a></p>
+<ul>
+<li><a href="https://geonetwork-opensource.org/">GeoNetwork, catalog application to manage spatially referenced resources</a></li>
+</ul>
+<p>No container-based installation.</p>
+<p>Extensive API.</p>
 </section>
 <section id="commercials-1" class="level3">
 <h3 class="anchored" data-anchor-id="commercials-1">Commercials</h3>
 <ul>
 <li><p><a href="https://www.esri.com/en-us/arcgis/geospatial-platform/overview">ESRI ArcGIS, geospatial platform</a></p></li>
 <li><p><a href="https://smartgeo.io/">SMARTGeo, visualization and analytics platform</a></p></li>
+<li><p><a href="https://carto.com/">CARTO, cloud-based spatial analysis</a></p></li>
 </ul>
 </section>
 </section>
 <section id="digital-lab-notebooks" class="level2">
 <h2 class="anchored" data-anchor-id="digital-lab-notebooks">Digital Lab Notebooks</h2>
 <ul>
-<li><p><a href="https://openbis.ch/">OpenBis</a></p></li>
-<li><p><a href="https://www.elabftw.net/">eLabFTW</a></p></li>
+<li><a href="https://openbis.ch/">OpenBis</a></li>
+</ul>
+<p>Extensive API.</p>
+<ul>
+<li><a href="https://www.elabftw.net/">eLabFTW</a></li>
 </ul>
 <p><a href="https://doc.elabftw.net/install.html">Docker</a></p>
+<p>Extensive API.</p>
 </section>
 <section id="bibliography" class="level2">
 <h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
 <ul>
 <li><a href="https://www.zotero.org/">“Zotero is free and open-source reference management software to manage bibliographic data and related research materials</a></li>
 </ul>
+<p>Many extensions providing some web API support.</p>
 </section>
 <section id="generalists" class="level2">
 <h2 class="anchored" data-anchor-id="generalists">Generalists</h2>
@@ -325,9 +361,15 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>No container-based installation.</p>
 <ul>
-<li><p><a href="https://zenodo.org/">“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”</a></p></li>
-<li><p><a href="https://bartoc.org/">BARTOC is a register Thesauri, Ontologies &amp; Classifications</a></p></li>
-<li><p><a href="https://inveniordm.docs.cern.ch/">RDM, turn-key resaerch data management repository</a></p></li>
+<li><a href="https://zenodo.org/">“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”</a></li>
+</ul>
+<p>Extensive API.</p>
+<ul>
+<li><a href="https://bartoc.org/">BARTOC is a register Thesauri, Ontologies &amp; Classifications</a></li>
+</ul>
+<p><a href="https://github.com/gbv/bartoc.org/blob/main/docker/README.md">Docker and docker-compose installation supported but mostly supposed to be used online as a register</a></p>
+<ul>
+<li><a href="https://inveniordm.docs.cern.ch/">RDM, turn-key resaerch data management repository</a></li>
 </ul>
 <p>No container-based installation, though docker and docker-compose are used for the set-up.</p>
 <ul>
@@ -342,14 +384,17 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://reanahub.io/">REANA, Reproducible and reusable research data analysis platform</a></li>
 </ul>
 <p><a href="https://docs.reana.io/administration/">Kubernetes, Helm and Kubernetes in Docker</a></p>
+<p>Extensive API.</p>
 <ul>
 <li><a href="https://www.unicore.eu/">UNICORE, A European Federation Software Suite</a></li>
 </ul>
 <p><a href="https://unicore-docs.readthedocs.io/en/latest/gettingstarted.html?highlight=docker#evaluating-unicore">Docker image but mostly for evaluation</a></p>
+<p>Extensive API.</p>
 <ul>
-<li><a href="https://scicatproject.github.io/">SciCat, management and annotation of scientific data</a></li>
+<li><a href="https://scicatproject.github.io/">SciCat, management and annotation of scientific data based on Elastic Search</a></li>
 </ul>
 <p><a href="https://scicatproject.github.io/scicatlive/latest/">Default docker-compose installation</a></p>
+<p>Extensive API.</p>
 </section>
 <section id="authority-control" class="level2">
 <h2 class="anchored" data-anchor-id="authority-control">Authority control</h2>
@@ -370,6 +415,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.</p>
 <p><a href="https://github.com/nextcloud/helm">Helm chart</a></p>
+<p>Extensive API.</p>
 
 
 </section>

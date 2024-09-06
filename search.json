@@ -81,7 +81,7 @@
     "href": "pages/DataManagement_MediumPlatforms.html",
     "title": "DeKCD - Medium Data Management platforms - Draft",
     "section": "",
-    "text": "NextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.",
+    "text": "NextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\n\nOpenClinica, clinical research EDC platform\n\nNo containerization, java-based.",
     "crumbs": [
       "Home",
       "DeKCD - Medium Data Management platforms - Draft"
@@ -92,7 +92,7 @@
     "href": "pages/DataManagement_MediumPlatforms.html#for-life-science",
     "title": "DeKCD - Medium Data Management platforms - Draft",
     "section": "",
-    "text": "NextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.",
+    "text": "NextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\n\nOpenClinica, clinical research EDC platform\n\nNo containerization, java-based.",
     "crumbs": [
       "Home",
       "DeKCD - Medium Data Management platforms - Draft"
@@ -103,7 +103,7 @@
     "href": "pages/DataManagement_MediumPlatforms.html#documents",
     "title": "DeKCD - Medium Data Management platforms - Draft",
     "section": "Documents",
-    "text": "Documents\n\nOpen Contracts",
+    "text": "Documents\n\nOpen Contracts, Community Edition & Commercial",
     "crumbs": [
       "Home",
       "DeKCD - Medium Data Management platforms - Draft"
@@ -392,7 +392,7 @@
     "href": "to_sort.html",
     "title": "Scrap page: things to sort",
     "section": "",
-    "text": "Zenodo\nWorkflow Hub\n** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Dublin Core\n** Linked Data Platform\n[RO-Crate]: (https://www.researchobject.org/ro-crate/) , RO-Crate specs\nOxford Common File Layout\nPE Tab\nFair Data Station\nISA format\nJust Enough Results Model (JERM)\n“LifeMonitor is a service to support the sustainability and reusability of published computational workflows”\nJAX BioConnect\nA scaleable, standards based platform for sustainable data\n“Autosubmit is a Python-based workflow manager”\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\nSync and share research data, 20GB storage data (NextCloud)\nStore and publish your research data\nResearch Object Hub\nEGI\nESO Reflex\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\nKarma data integration tool\nA System to Evaluate the FAIRness of Digital Objects\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n[]“OSF is a free, open platform to support your research and enable collaboration.”] (https://osf.io/)\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?",
+    "text": "Workflow Hub\n** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Dublin Core\n** Linked Data Platform\n[RO-Crate]: (https://www.researchobject.org/ro-crate/) , RO-Crate specs\nOxford Common File Layout\nFair Data Station\nA scaleable, standards based platform for sustainable data\n“Autosubmit is a Python-based workflow manager”\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\nSync and share research data, 20GB storage data (NextCloud)\nStore and publish your research data\nResearch Object Hub\nEGI\nESO Reflex\nWith some other tools (left menu). Check tools from ESA, EUMETSAT & NASA\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\nKarma data integration tool\nA System to Evaluate the FAIRness of Digital Objects\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n[“OSF is a free, open platform to support your research and enable collaboration.”] (https://osf.io/)\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?",
     "crumbs": [
       "Home",
       "Scrap page: things to sort"
@@ -410,7 +410,18 @@
     "href": "pages/DataManagement_MajorPlatforms.html",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "",
-    "text": "Omero\n\nOmero is an open source imaging platform for microscopy outputs.\nDocker Image\nHelm chart\n\nSeek\n\nDocker Compose(one instance on one server!)\n\nAruna Object Storage (AOS)\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”\n\nXNAT\n\nXNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). Presentation on usage\nDocker Compose\n\nREDCap – Research Electronic Data Capture\n\nFree for non-profit institutions but not Open Source, available upon request.\n\n\n\n\nOracle Clinical, an Electronic Health Record and Data Management platform\nMediData, a set of platforms for clinical trials, Electronic Health Record and Data management\nCastor, Electronic Health Record",
+    "text": "TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).\nMissing: pharmaceutical, urbanism, astronomy (seems to be online catalogues and desktop tools mostly), controlled vocabulary (most listed here)\nIncomplete: geomatics",
+    "crumbs": [
+      "Home",
+      "DeKCD - Major Data Management platforms - Draft"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#progress",
+    "href": "pages/DataManagement_MajorPlatforms.html#progress",
+    "title": "DeKCD - Major Data Management platforms - Draft",
+    "section": "",
+    "text": "TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).\nMissing: pharmaceutical, urbanism, astronomy (seems to be online catalogues and desktop tools mostly), controlled vocabulary (most listed here)\nIncomplete: geomatics",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -420,8 +431,8 @@
     "objectID": "pages/DataManagement_MajorPlatforms.html#for-life-science",
     "href": "pages/DataManagement_MajorPlatforms.html#for-life-science",
     "title": "DeKCD - Major Data Management platforms - Draft",
-    "section": "",
-    "text": "Omero\n\nOmero is an open source imaging platform for microscopy outputs.\nDocker Image\nHelm chart\n\nSeek\n\nDocker Compose(one instance on one server!)\n\nAruna Object Storage (AOS)\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”\n\nXNAT\n\nXNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). Presentation on usage\nDocker Compose\n\nREDCap – Research Electronic Data Capture\n\nFree for non-profit institutions but not Open Source, available upon request.\n\n\n\n\nOracle Clinical, an Electronic Health Record and Data Management platform\nMediData, a set of platforms for clinical trials, Electronic Health Record and Data management\nCastor, Electronic Health Record",
+    "section": "For Life Science",
+    "text": "For Life Science\n\nOpen Source or free\n\nOmero\n\nOmero is an open source imaging platform for microscopy outputs.\nExtensive API.\nDocker Image\nHelm chart\n\nSeek\n\nDocker Compose(one instance on one server!)\nExtensive API.\nRelated:\n** Just Enough Results Model (JERM)\n\nAruna Object Storage (AOS)\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”\n\nXNAT\n\nXNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). Presentation on usage\nExtensive API.\nDocker Compose\n\nREDCap – Research Electronic Data Capture\n\nFree for non-profit institutions but not Open Source, available upon request.\nExtensive API.\n\nISA format, set of format and related tools for bioscience experiment\nRightField\n“LifeMonitor is a service to support the sustainability and reusability of published computational workflows”\nJAX BioConnect\n\n\n\nCommercials\n\nOracle Clinical, an Electronic Health Record and Data Management platform\nMediData, a set of platforms for clinical trials, Electronic Health Record and Data management\nCastor, Electronic Health Record",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -432,7 +443,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#materials-science",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Materials science",
-    "text": "Materials science\n\nNOMAD, management and sharing of material science data (online)\n\nWith many tutorials, also on Youtube\n\npyiron, compley workflow made based on JupiterLab and pyiron workflow with many extensions\n\nWith a set of docker images\n\nHELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle\n\nNo container-based installation.",
+    "text": "Materials science\n\nNOMAD, management and sharing of material science data (online)\n\nExtensive API.\nWith many tutorials, also on Youtube\n\npyiron, compley workflow made based on JupiterLab and pyiron workflow with many extensions\n\nWith a set of docker images\n\nHELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle\n\nNo container-based installation.\nExtensive API and extensions support.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -443,7 +454,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#geomatics",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Geomatics",
-    "text": "Geomatics\n\nOpen Source\n\nGeoServer, “an open source server for sharing geospatial data”\n\nNo container-based installation.\n\nMapGuide Open Source, ” a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services.” and MapServer, a mapping engine, part of a large portofolio of Geospatial tools\n\nNo container-based installation.\n\nMapnik, open-source mapping toolkit\n\nNo container-based installation.\n\nArangoDB, open-source and commercial graph and spatial database\n\nDocker and Kubernetes installations\n\n\nCommercials\n\nESRI ArcGIS, geospatial platform\nSMARTGeo, visualization and analytics platform",
+    "text": "Geomatics\n\nOpen Source\n\nGeoServer, “an open source server for sharing geospatial data”\n\nNo container-based installation.\nExtensive API and many extensions.\n\nMapGuide Open Source, ” a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services.” and MapServer, a mapping engine, part of a large portofolio of Geospatial tools\n\nNo container-based installation.\nExtensive API via the related tools.\n\nMapnik, open-source mapping toolkit\n\nNo container-based installation.\n\nArangoDB, open-source and commercial graph and spatial database\n\nDocker and Kubernetes installations\n\nGeoNetwork, catalog application to manage spatially referenced resources\n\nNo container-based installation.\nExtensive API.\n\n\nCommercials\n\nESRI ArcGIS, geospatial platform\nSMARTGeo, visualization and analytics platform\nCARTO, cloud-based spatial analysis",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -454,7 +465,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#digital-lab-notebooks",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Digital Lab Notebooks",
-    "text": "Digital Lab Notebooks\n\nOpenBis\neLabFTW\n\nDocker",
+    "text": "Digital Lab Notebooks\n\nOpenBis\n\nExtensive API.\n\neLabFTW\n\nDocker\nExtensive API.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -465,7 +476,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#bibliography",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Bibliography",
-    "text": "Bibliography\n\n“Zotero is free and open-source reference management software to manage bibliographic data and related research materials",
+    "text": "Bibliography\n\n“Zotero is free and open-source reference management software to manage bibliographic data and related research materials\n\nMany extensions providing some web API support.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -476,7 +487,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#generalists",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Generalists",
-    "text": "Generalists\n\nRDMO - Research Data Management Organiser\nThe Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)\n\nDocker Compose\n\nDataverse, an open source research data repository software\n\nNo container-based installation.\n\n“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”\nBARTOC is a register Thesauri, Ontologies & Classifications\nRDM, turn-key resaerch data management repository\n\nNo container-based installation, though docker and docker-compose are used for the set-up.\n\nINVENIO, a framework for large-scale digital repositories\n\nNo container-based installation.\n\nRODARE, ROssendorf DAta REpository, Online Data Repository\n\nBased on INVENIO Digital Library framework.\n\nREANA, Reproducible and reusable research data analysis platform\n\nKubernetes, Helm and Kubernetes in Docker\n\nUNICORE, A European Federation Software Suite\n\nDocker image but mostly for evaluation\n\nSciCat, management and annotation of scientific data\n\nDefault docker-compose installation",
+    "text": "Generalists\n\nRDMO - Research Data Management Organiser\nThe Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)\n\nDocker Compose\n\nDataverse, an open source research data repository software\n\nNo container-based installation.\n\n“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”\n\nExtensive API.\n\nBARTOC is a register Thesauri, Ontologies & Classifications\n\nDocker and docker-compose installation supported but mostly supposed to be used online as a register\n\nRDM, turn-key resaerch data management repository\n\nNo container-based installation, though docker and docker-compose are used for the set-up.\n\nINVENIO, a framework for large-scale digital repositories\n\nNo container-based installation.\n\nRODARE, ROssendorf DAta REpository, Online Data Repository\n\nBased on INVENIO Digital Library framework.\n\nREANA, Reproducible and reusable research data analysis platform\n\nKubernetes, Helm and Kubernetes in Docker\nExtensive API.\n\nUNICORE, A European Federation Software Suite\n\nDocker image but mostly for evaluation\nExtensive API.\n\nSciCat, management and annotation of scientific data based on Elastic Search\n\nDefault docker-compose installation\nExtensive API.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -498,7 +509,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#others",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Others",
-    "text": "Others\n\nNextCloud\n\nNextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.\nHelm chart",
+    "text": "Others\n\nNextCloud\n\nNextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.\nHelm chart\nExtensive API.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
