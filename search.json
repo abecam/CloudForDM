@@ -81,7 +81,7 @@
     "href": "pages/DataManagement_MediumPlatforms.html",
     "title": "DeKCD - Medium Data Management platforms - Draft",
     "section": "",
-    "text": "NextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\n\nOpenClinica, clinical research EDC platform\n\nNo containerization, java-based.",
+    "text": "NextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\n\nOpenClinica, clinical research EDC platform\n\nNo containerization, java-based.\nExtensive API.",
     "crumbs": [
       "Home",
       "DeKCD - Medium Data Management platforms - Draft"
@@ -92,7 +92,7 @@
     "href": "pages/DataManagement_MediumPlatforms.html#for-life-science",
     "title": "DeKCD - Medium Data Management platforms - Draft",
     "section": "",
-    "text": "NextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\n\nOpenClinica, clinical research EDC platform\n\nNo containerization, java-based.",
+    "text": "NextSeek\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\n\nOpenClinica, clinical research EDC platform\n\nNo containerization, java-based.\nExtensive API.",
     "crumbs": [
       "Home",
       "DeKCD - Medium Data Management platforms - Draft"
@@ -392,7 +392,7 @@
     "href": "to_sort.html",
     "title": "Scrap page: things to sort",
     "section": "",
-    "text": "Workflow Hub\n** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Dublin Core\n** Linked Data Platform\n[RO-Crate]: (https://www.researchobject.org/ro-crate/) , RO-Crate specs\nOxford Common File Layout\nFair Data Station\nA scaleable, standards based platform for sustainable data\n“Autosubmit is a Python-based workflow manager”\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\nSync and share research data, 20GB storage data (NextCloud)\nStore and publish your research data\nResearch Object Hub\nEGI\nESO Reflex\nWith some other tools (left menu). Check tools from ESA, EUMETSAT & NASA\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\nKarma data integration tool\nA System to Evaluate the FAIRness of Digital Objects\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n[“OSF is a free, open platform to support your research and enable collaboration.”] (https://osf.io/)\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?",
+    "text": "Workflow Hub\n** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Dublin Core\n** Linked Data Platform\n[RO-Crate]: (https://www.researchobject.org/ro-crate/) , RO-Crate specs\nOxford Common File Layout\nFair Data Station\nRSpace\nWhich domain?\nA scaleable, standards based platform for sustainable data\n“Autosubmit is a Python-based workflow manager”\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\nSync and share research data, 20GB storage data (NextCloud)\nStore and publish your research data\nResearch Object Hub\nEGI\nESO Reflex\nWith some other tools (left menu). Check tools from ESA, EUMETSAT & NASA\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\nKarma data integration tool\nA System to Evaluate the FAIRness of Digital Objects\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n[“OSF is a free, open platform to support your research and enable collaboration.”] (https://osf.io/)\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?",
     "crumbs": [
       "Home",
       "Scrap page: things to sort"
@@ -422,6 +422,28 @@
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "",
     "text": "TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).\nMissing: pharmaceutical, urbanism, astronomy (seems to be online catalogues and desktop tools mostly), controlled vocabulary (most listed here)\nIncomplete: geomatics",
+    "crumbs": [
+      "Home",
+      "DeKCD - Major Data Management platforms - Draft"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#process",
+    "href": "pages/DataManagement_MajorPlatforms.html#process",
+    "title": "DeKCD - Major Data Management platforms - Draft",
+    "section": "Process",
+    "text": "Process\nTop-Down approach: first listing with technical information (online, containers, …), then API support. Finally interoperability (data format of API), possibility of transfer to other domains and adaptability to cloud. Major platforms are easy-to-find and popular platforms. Draft should be in to_sort or to_investigate pages.",
+    "crumbs": [
+      "Home",
+      "DeKCD - Major Data Management platforms - Draft"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#to-work-on",
+    "href": "pages/DataManagement_MajorPlatforms.html#to-work-on",
+    "title": "DeKCD - Major Data Management platforms - Draft",
+    "section": "To Work-On",
+    "text": "To Work-On\n\nWrite about non-software dedicated DM approach (for instance semantic-web, RDF or Apache Spark).\nBetter presentation, without making editing more complex\nHow to present transferability",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -476,7 +498,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#bibliography",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Bibliography",
-    "text": "Bibliography\n\n“Zotero is free and open-source reference management software to manage bibliographic data and related research materials\n\nMany extensions providing some web API support.",
+    "text": "Bibliography\n\n“Zotero is free and open-source reference management software to manage bibliographic data and related research materials”\n\nMostly online with browser’s extension. It is a tool to help getting information from web-sites, organize and cite.\nMany extensions providing some web API support.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
