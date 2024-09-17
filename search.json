@@ -4,29 +4,7 @@
     "href": "pages/formats.html",
     "title": "DeKCD - Formats and standards - Draft",
     "section": "",
-    "text": "Common Formats are an important part of being FAIR",
-    "crumbs": [
-      "Home",
-      "DeKCD - Formats and standards - Draft"
-    ]
-  },
-  {
-    "objectID": "pages/formats.html#controlled-vocabularies",
-    "href": "pages/formats.html#controlled-vocabularies",
-    "title": "DeKCD - Formats and standards - Draft",
-    "section": "Controlled vocabularies",
-    "text": "Controlled vocabularies\n\nAGROVOC, Linked Open Dara about agriculture",
-    "crumbs": [
-      "Home",
-      "DeKCD - Formats and standards - Draft"
-    ]
-  },
-  {
-    "objectID": "pages/formats.html#standards",
-    "href": "pages/formats.html#standards",
-    "title": "DeKCD - Formats and standards - Draft",
-    "section": "Standards",
-    "text": "Standards\n\nMIRIAM\nSystems Biology Ontology\nKiSAO\nBioModels.net\nSharable Content Object Reference Model (SCORM)",
+    "text": "Common Formats are an important part of being FAIR\n\nSBML, Systems Biology Markup Language\nPE Tab, “data format for specifying parameter estimation problems in systems biology”\nBioPAX, “a standard language that aims to enable integration, exchange, visualization and analysis of biological pathway data”\nCellML, to store and exchange computer-based mathematical models, based on XML\nMIASE, Minimum information about a simulation experiment\nSBGN, Systems Biology Graphical Notation\nSED-ML, Simulation Experiment Description Markup Language\nRO-Crate , RO-Crate specs\nOxford Common File Layout\nSharable Content Object Reference Model (SCORM)",
     "crumbs": [
       "Home",
       "DeKCD - Formats and standards - Draft"
@@ -100,7 +78,7 @@
     "href": "pages/DataManagement_UsefulToolsAndPlatforms.html",
     "title": "DeKCD - Useful tools and platforms for Data Management - Draft",
     "section": "",
-    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations",
+    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
     "crumbs": [
       "Home",
       "DeKCD - Useful tools and platforms for Data Management - Draft"
@@ -111,7 +89,7 @@
     "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
     "title": "DeKCD - Useful tools and platforms for Data Management - Draft",
     "section": "",
-    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations",
+    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
     "crumbs": [
       "Home",
       "DeKCD - Useful tools and platforms for Data Management - Draft"
@@ -437,7 +415,7 @@
     "href": "to_investigate.html",
     "title": "Scrap page: things to investigate",
     "section": "",
-    "text": "Check EBI tools\nWebdav\nPresentation DM\nWikipedia list of academic DB and seach engines\nCheck what happened with Clarivate\nMinio\nRDM services\nList of solutions at UFZ\n[OpenData team(https://github.com/opendatateam)\nRe3Data\nPresentation DM Tu Dresden\nDM for Law (in French)",
+    "text": "Check EBI tools\nWebdav\nPresentation DM\nWikipedia list of academic DB and seach engines\nCheck what happened with Clarivate\nMinio\nRDM services\nList of solutions at UFZ\nOpenData team\n\nRe3Data\n\nPresentation DM Tu Dresden",
     "crumbs": [
       "Home",
       "Scrap page: things to investigate"
@@ -455,7 +433,7 @@
     "href": "to_sort.html",
     "title": "Scrap page: things to sort",
     "section": "",
-    "text": "Workflow Hub\n** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Linked Data Platform\n[RO-Crate]: (https://www.researchobject.org/ro-crate/) , RO-Crate specs\nOxford Common File Layout\nFair Data Station\nRSpace\nWhich domain?\nA scaleable, standards based platform for sustainable data\n“Autosubmit is a Python-based workflow manager”\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\nSync and share research data, 20GB storage data (NextCloud)\nStore and publish your research data\nResearch Object Hub\nEGI\nESO Reflex\nWith some other tools (left menu). Check tools from ESA, EUMETSAT & NASA\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\nKarma data integration tool\nA System to Evaluate the FAIRness of Digital Objects\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n[“OSF is a free, open platform to support your research and enable collaboration.”] (https://osf.io/)\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?",
+    "text": "Workflow Hub\n** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Linked Data Platform\nFair Data Station\n\n“Autosubmit is a Python-based workflow manager”\n\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\n\nSync and share research data, 20GB storage data (NextCloud)\n\n** Store and publish your research data\n\nResearch Object Hub\nEGI\n\nESO Reflex\nWith some other tools (left menu). Check tools from ESA, EUMETSAT & NASA\n\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\n\nKarma data integration tool\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?",
     "crumbs": [
       "Home",
       "Scrap page: things to sort"
@@ -517,7 +495,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#life-science",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Life Science",
-    "text": "Life Science\n\nOpen Source or free\n\nGalaxy, an web-based platform for biomedical research, allowing cloud-based workflows\n\nGalaxy is already a cloud-based solution, widely used.\n\nOmero\n\nOmero is an open source imaging platform for microscopy outputs.\nExtensive API.\nDocker Image\nHelm chart\n\nSeek\n\nDocker Compose(one instance on one server!)\nExtensive API.\nRelated:\n** Just Enough Results Model (JERM)\n\nAruna Object Storage (AOS)\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”\n\nXNAT\n\nXNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). Presentation on usage\nExtensive API.\nDocker Compose\n\nREDCap – Research Electronic Data Capture\n\nFree for non-profit institutions but not Open Source, available upon request.\nExtensive API.\n\nISA format, set of format and related tools for bioscience experiment\nRightField\n“LifeMonitor is a service to support the sustainability and reusability of published computational workflows”\nJAX BioConnect\n\n\n\nCommercials\n\nOracle Clinical, an Electronic Health Record and Data Management platform\nMediData, a set of platforms for clinical trials, Electronic Health Record and Data management\nCastor, Electronic Health Record",
+    "text": "Life Science\n\nOpen Source or free\n\nGalaxy, an web-based platform for biomedical research, allowing cloud-based workflows\n\nGalaxy is already a cloud-based solution, widely used.\n\nOmero\n\nOmero is an open source imaging platform for microscopy outputs.\nExtensive API.\nDocker Image\nHelm chart\n\nSeek\n\nDocker Compose(one instance on one server!)\nExtensive API.\nRelated:\n** Just Enough Results Model (JERM)\n\nAruna Object Storage (AOS)\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”\n\nXNAT\n\nXNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). Presentation on usage\nExtensive API.\nDocker Compose\n\nREDCap – Research Electronic Data Capture\n\nFree for non-profit institutions but not Open Source, available upon request.\nExtensive API.\n\nISA format, set of format and related tools for bioscience experiment\nRightField\n“LifeMonitor is a service to support the sustainability and reusability of published computational workflows”\nJAX BioConnect, “s an index of research data that supports data sharing, high-quality curation, and consistent data description”\nBioModels, a repository of mathematical models of biological and biomedical systems\n\n\n\nCommercials\n\nOracle Clinical, an Electronic Health Record and Data Management platform\nMediData, a set of platforms for clinical trials, Electronic Health Record and Data management\nCastor, Electronic Health Record",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -572,7 +550,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#digital-lab-notebooks",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Digital Lab Notebooks",
-    "text": "Digital Lab Notebooks\n\nOpenBis\n\nExtensive API.\n\neLabFTW\n\nDocker\nExtensive API.",
+    "text": "Digital Lab Notebooks\n\nOpenBis\n\nExtensive API.\n\neLabFTW\n\nDocker\nExtensive API.\n\nRSpace, electronic noteboook and inventory management\n\nDocker Compose\nExtensive API and SDK.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -649,14 +627,14 @@
     "href": "pages/DataManagement_Ontologies.html",
     "title": "DeKCD - Major Ontologies/Thesauruses",
     "section": "",
-    "text": "Most ontologies for life sciences are listed by the Ontology Lookup Service. As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\n\n\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations"
+    "text": "Most ontologies for life sciences are listed by the Ontology Lookup Service. As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\n\n\nSimilarly, most biomedical ontologies are listed on BioPortal\n\n\n\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations"
   },
   {
     "objectID": "pages/DataManagement_Ontologies.html#life-science",
     "href": "pages/DataManagement_Ontologies.html#life-science",
     "title": "DeKCD - Major Ontologies/Thesauruses",
     "section": "",
-    "text": "Most ontologies for life sciences are listed by the Ontology Lookup Service. As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\n\n\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations"
+    "text": "Most ontologies for life sciences are listed by the Ontology Lookup Service. As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\n\n\nSimilarly, most biomedical ontologies are listed on BioPortal\n\n\n\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations"
   },
   {
     "objectID": "pages/DataManagement_Ontologies.html#for-health-medical-sciences",
