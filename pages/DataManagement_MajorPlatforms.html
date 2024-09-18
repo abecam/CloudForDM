@@ -233,8 +233,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="progress">Progress</h2>
 <ul>
 <li><p>TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).</p></li>
-<li><p>Missing: pharmaceutical, urbanism, astronomy (seems to be online catalogues and desktop tools mostly), controlled vocabulary (most listed <a href="https://github.com/gbv/bartoc.org/wiki/Software-for-controlled-vocabularies">here</a>)</p></li>
-<li><p>Incomplete: geomatics</p></li>
+<li><p>Incomplete: astronomy.</p></li>
 </ul>
 </section>
 <section id="process" class="level2">
@@ -411,6 +410,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="astronomy" class="level2">
 <h2 class="anchored" data-anchor-id="astronomy">Astronomy</h2>
+<p>Astronomy is largely standardized and relies on many tools developed over several decades, and online catalogues. As such many are standalone tools and are potentially cloud-friendly, though will need some more technical adaptations.</p>
 <ul>
 <li><p><a href="https://www.ivoa.net/">Virtual Observatory (VO), the International Virtual Observatory Alliance (IVOA) provides resources for discovering and accessing astronomical data, including standards for data sharing and interoperability</a></p></li>
 <li><p><a href="https://almascience.nrao.edu/aq/">ALMA Science Archive, the ALMA archive gives access to data from the Atacama Large Millimeter/submillimeter Array, providing public access to radio astronomy dataset</a></p></li>
@@ -420,7 +420,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="http://skyserver.sdss.org/">SkyServer (Sloan Digital Sky Survey, SDSS), SkyServer provides access to data from the Sloan Digital Sky Survey, with resources for professional astronomers and public users</a></p></li>
 <li><p><a href="https://archive.stsci.edu/missions-and-data/tess">TESS Data Portal, the TESS Data Portal provides access to data from the Transiting Exoplanet Survey Satellite, focusing on exoplanet discovery</a></p></li>
 <li><p><a href="http://archive.eso.org/">ESO Science Archive Facility, the European Southern Observatory (ESO) archive contains data from its observatories, including the Very Large Telescope (VLT), and provides tools for data retrieval and analysis</a></p></li>
+<li><p><a href="https://www.eso.org/sci/software/esoreflex/">ESO Reflex</a></p></li>
 </ul>
+<p>Based on <a href="https://kepler-project.org/users/downloads.html">Kepler, which seems out of support</a>, standalone tools for reducing VLT (Very Large Telescope)/VLTI (Very Large Telescope Interferometer) science data. Part of the <a href="https://www.eso.org/sci/software/pipelines/">VLT Instrument Pipelines</a></p>
+<p>Standalone, no container-based installation.</p>
 </section>
 <section id="humanities" class="level2">
 <h2 class="anchored" data-anchor-id="humanities">Humanities</h2>
@@ -446,59 +449,97 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="generalists" class="level2">
 <h2 class="anchored" data-anchor-id="generalists">Generalists</h2>
+<p>All are inherently cross-platform and most follow the FAIR principle.</p>
 <ul>
-<li><a href="https://osf.io">Open Science Framework (OSF), a platform that supports open research</a></li>
-</ul>
-<p>Extensive API.</p>
+<li><p><a href="https://osf.io">Open Science Framework (OSF), a platform that supports open research</a></p>
 <ul>
-<li><p><a href="https://rdmorganiser.github.io/en/">RDMO - Research Data Management Organiser</a></p></li>
-<li><p><a href="https://ckan.org/">The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)</a></p></li>
-</ul>
-<p><a href="https://docs.ckan.org/en/2.11/maintaining/installing/index.html">Docker Compose</a></p>
+<li>Online</li>
+<li><a href="https://developer.osf.io/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return well-documented JSON.</li>
+</ul></li>
+<li><p><a href="https://rdmorganiser.github.io/en/">RDMO - Research Data Management Organiser</a></p>
 <ul>
-<li><a href="https://dataverse.org/">Dataverse, an open source research data repository software</a></li>
-</ul>
-<p>No container-based installation. Extensive API.</p>
+<li><a href="https://github.com/rdmorganiser/rdmo-docker-compose">Docker Compose</a></li>
+<li><a href="https://rdmo.readthedocs.io/en/latest/administration/api.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return well-documented JSON.</li>
+</ul></li>
+<li><p><a href="https://ckan.org/">The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)</a></p>
 <ul>
-<li><a href="https://zenodo.org/">“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”</a></li>
-</ul>
-<p>Extensive API.</p>
+<li><a href="https://docs.ckan.org/en/2.11/maintaining/installing/index.html">Docker Compose</a></li>
+<li><a href="https://docs.ckan.org/en/2.11/api/index.html">API</a></li>
+<li>Interoperability <strong>MEDIUM</strong>: the API is not documented fully.</li>
+</ul></li>
+<li><p><a href="https://dataverse.org/">Dataverse, an open source research data repository software</a></p>
 <ul>
-<li><a href="https://bartoc.org/">BARTOC is a register Thesauri, Ontologies &amp; Classifications</a></li>
-</ul>
-<p><a href="https://github.com/gbv/bartoc.org/blob/main/docker/README.md">Docker and docker-compose installation supported but mostly supposed to be used online as a register</a></p>
+<li><a href="https://guides.dataverse.org/en/latest/developers/containers.html">Docker Compose and Kubernetes</a></li>
+<li><a href="https://guides.dataverse.org/en/latest/api/index.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return documented JSON.</li>
+</ul></li>
+<li><p><a href="https://zenodo.org/">“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”</a></p>
 <ul>
-<li><a href="https://inveniordm.docs.cern.ch/">RDM, turn-key resaerch data management repository</a></li>
-</ul>
-<p>No container-based installation, though docker and docker-compose are used for the set-up.</p>
+<li>Mostly used online, but provide a <a href="https://github.com/zenodo/zenodo-rdm">Docker Compose</a></li>
+<li><a href="https://developers.zenodo.org/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return well-documented JSON.</li>
+</ul></li>
+<li><p><a href="https://bartoc.org/">BARTOC is a register of Thesauri, Ontologies &amp; Classifications</a></p>
 <ul>
-<li><a href="https://invenio.readthedocs.io/en/latest/">INVENIO, a framework for large-scale digital repositories</a></li>
-</ul>
-<p>No container-based installation.</p>
+<li><a href="https://github.com/gbv/bartoc.org/blob/main/docker/README.md">Docker and docker-compose installation supported but mostly supposed to be used online as a register</a></li>
+<li><a href="https://bartoc.org/vocabularies?search=BARTOC">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return well-documented JSON.</li>
+</ul></li>
+<li><p><a href="https://inveniordm.docs.cern.ch/">RDM, turn-key research data management repository</a></p>
 <ul>
-<li><a href="https://rodare.hzdr.de/about/">RODARE, ROssendorf DAta REpository, Online Data Repository</a></li>
-</ul>
-<p>Based on INVENIO Digital Library framework.</p>
+<li><a href="https://inveniordm.docs.cern.ch/maintenance/docker-images/">Docker image</a></li>
+<li><a href="https://inveniordm.docs.cern.ch/reference/rest_api_index/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return well-documented JSON.</li>
+</ul></li>
+<li><p><a href="https://invenio.readthedocs.io/en/latest/">INVENIO, a framework for large-scale digital repositories</a></p>
 <ul>
-<li><a href="https://reanahub.io/">REANA, Reproducible and reusable research data analysis platform</a></li>
-</ul>
-<p><a href="https://docs.reana.io/administration/">Kubernetes, Helm and Kubernetes in Docker</a></p>
-<p>Extensive API.</p>
+<li>Framework to develop repositories, such as RDM</li>
+<li><a href="https://invenio-records-rest.readthedocs.io/en/latest/">API</a></li>
+<li>Interoperability <strong>HIGH</strong>: All documented, used to build other repositories.</li>
+</ul></li>
+<li><p><a href="https://rodare.hzdr.de/about/">RODARE, ROssendorf DAta REpository, Online Data Repository</a></p>
 <ul>
-<li><a href="https://www.unicore.eu/">UNICORE, A European Federation Software Suite</a></li>
-</ul>
-<p><a href="https://unicore-docs.readthedocs.io/en/latest/gettingstarted.html?highlight=docker#evaluating-unicore">Docker image but mostly for evaluation</a></p>
-<p>Extensive API.</p>
+<li>Based on INVENIO Digital Library framework.</li>
+<li>Explain <a href="https://rodare.hzdr.de/about/principles/">how it is FAIR</a></li>
+<li></li>
+</ul></li>
+<li><p><a href="https://reanahub.io/">REANA, Reproducible and reusable research data analysis platform</a></p>
 <ul>
-<li><a href="https://scicatproject.github.io/">SciCat, management and annotation of scientific data based on Elastic Search</a></li>
+<li><a href="https://docs.reana.io/administration/">Kubernetes, Helm and Kubernetes in Docker</a></li>
+<li><a href="https://docs.reana.io/reference/">Extensive APIs</a></li>
+<li>Interoperability <strong>HIGH</strong>: use a yaml file which is <a href="https://docs.reana.io/reference/reana-yaml/">fully documented</a></li>
+</ul></li>
+<li><p><a href="https://www.unicore.eu/">UNICORE, A European Federation Software Suite</a></p>
+<ul>
+<li><a href="https://unicore-docs.readthedocs.io/en/latest/gettingstarted.html?highlight=docker#evaluating-unicore">Docker image but mostly for evaluation</a></li>
+<li><a href="https://unicore-docs.readthedocs.io/en/latest/user-docs/rest-api/index.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return well-documented JSON.</li>
+</ul></li>
+<li><p><a href="https://scicatproject.github.io/">SciCat, management and annotation of scientific data based on Elastic Search</a></p>
+<ul>
+<li><a href="https://scicatproject.github.io/scicatlive/latest/">Default docker-compose installation</a></li>
+<li><a href="https://scicatproject.github.io/api-documentation/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return well-documented JSON.</li>
+</ul></li>
+<li><p><a href="https://www.re3data.org/">re3data, registry of research data repositories</a></p>
+<ul>
+<li>Online.</li>
+<li><a href="https://www.re3data.org/api/doc">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return XML following a given schema.</li>
+</ul></li>
 </ul>
-<p><a href="https://scicatproject.github.io/scicatlive/latest/">Default docker-compose installation</a></p>
-<p>Extensive API.</p>
 </section>
 <section id="authority-control" class="level2">
 <h2 class="anchored" data-anchor-id="authority-control">Authority control</h2>
 <ul>
-<li><p><a href="https://orcid.org/">ORCID, Open Researcher and Contributor ID</a></p></li>
+<li><p><a href="https://orcid.org/">ORCID, Open Researcher and Contributor ID</a></p>
+<ul>
+<li><p>Online.</p></li>
+<li><p><a href="https://info.orcid.org/documentation/api-tutorials/api-tutorial-read-data-on-a-record/">Extensive API</a></p></li>
+<li></li>
+</ul></li>
 <li><p><a href="https://ror.org/">ROR, “a global, community-led registry of open persistent identifiers for research organizations”</a></p></li>
 <li><p><a href="https://www.doi.org/">DOI, Digital Object Identifier</a></p></li>
 <li><p><a href="https://www.issn.org/">ISSN, International Identifier for serials</a></p></li>

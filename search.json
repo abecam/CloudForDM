@@ -15,14 +15,21 @@
     "href": "pages/DataManagement_Taxonomies.html",
     "title": "DeKCD - Major taxonomies/classifications",
     "section": "",
-    "text": "MeSH (Medical Subject Headings), controlled vocabulary for indexing articles in life sciences\n\nTools: MeSH Browser, PubMed\n\nNCBI Taxonomy, classification of organisms\n\nTool: NCBI Taxonomy Browser\n\nHUGO Gene Nomenclature, nomenclature for human genes\n\nTool: HGNC Database\n\nUniProt Controlled Vocabulary, vocabulary for protein sequences and functions\n\nTool: UniProt Browser"
+    "text": "Bartoc offers a list of software for controlled vocabularies that can be extended on GitHub"
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#bartoc.org-list-of-software-for-controlled-vocabularies",
+    "href": "pages/DataManagement_Taxonomies.html#bartoc.org-list-of-software-for-controlled-vocabularies",
+    "title": "DeKCD - Major taxonomies/classifications",
+    "section": "",
+    "text": "Bartoc offers a list of software for controlled vocabularies that can be extended on GitHub"
   },
   {
     "objectID": "pages/DataManagement_Taxonomies.html#for-life-sciences",
     "href": "pages/DataManagement_Taxonomies.html#for-life-sciences",
     "title": "DeKCD - Major taxonomies/classifications",
-    "section": "",
-    "text": "MeSH (Medical Subject Headings), controlled vocabulary for indexing articles in life sciences\n\nTools: MeSH Browser, PubMed\n\nNCBI Taxonomy, classification of organisms\n\nTool: NCBI Taxonomy Browser\n\nHUGO Gene Nomenclature, nomenclature for human genes\n\nTool: HGNC Database\n\nUniProt Controlled Vocabulary, vocabulary for protein sequences and functions\n\nTool: UniProt Browser"
+    "section": "For Life Sciences",
+    "text": "For Life Sciences\n\nMeSH (Medical Subject Headings), controlled vocabulary for indexing articles in life sciences\n\nTools: MeSH Browser, PubMed\n\nNCBI Taxonomy, classification of organisms\n\nTool: NCBI Taxonomy Browser\n\nHUGO Gene Nomenclature, nomenclature for human genes\n\nTool: HGNC Database\n\nUniProt Controlled Vocabulary, vocabulary for protein sequences and functions\n\nTool: UniProt Browser"
   },
   {
     "objectID": "pages/DataManagement_Taxonomies.html#for-health-and-medicine",
@@ -415,7 +422,7 @@
     "href": "to_investigate.html",
     "title": "Scrap page: things to investigate",
     "section": "",
-    "text": "Check EBI tools\nWebdav\nPresentation DM\nWikipedia list of academic DB and seach engines\nCheck what happened with Clarivate\nMinio\nRDM services\nList of solutions at UFZ\nOpenData team\n\nRe3Data\n\nPresentation DM Tu Dresden",
+    "text": "Check EBI tools\nWebdav\nPresentation DM\nWikipedia list of academic DB and seach engines\nCheck what happened with Clarivate\nRDM services\nList of solutions at UFZ\nOpenData team\n\nRe3Data\n\nPresentation DM Tu Dresden",
     "crumbs": [
       "Home",
       "Scrap page: things to investigate"
@@ -433,7 +440,7 @@
     "href": "to_sort.html",
     "title": "Scrap page: things to sort",
     "section": "",
-    "text": "Workflow Hub\n** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Linked Data Platform\nFair Data Station\n\n“Autosubmit is a Python-based workflow manager”\n\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\n\nSync and share research data, 20GB storage data (NextCloud)\n\n** Store and publish your research data\n\nResearch Object Hub\nEGI\n\nESO Reflex\nWith some other tools (left menu). Check tools from ESA, EUMETSAT & NASA\n\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\n\nKarma data integration tool\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?",
+    "text": "Workflow Hub\n** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Linked Data Platform\nFair Data Station\n\n“Autosubmit is a Python-based workflow manager”\n\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\n\nSync and share research data, 20GB storage data (NextCloud)\n\n** Store and publish your research data\n\nResearch Object Hub\nEGI\n\nWith some other tools (left menu). Check tools from ESA, EUMETSAT & NASA\n\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\n\nKarma data integration tool\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?",
     "crumbs": [
       "Home",
       "Scrap page: things to sort"
@@ -451,7 +458,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "",
-    "text": "TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).\nMissing: pharmaceutical, urbanism, astronomy (seems to be online catalogues and desktop tools mostly), controlled vocabulary (most listed here)\nIncomplete: geomatics",
+    "text": "TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).\nIncomplete: astronomy.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -462,7 +469,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#progress",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "",
-    "text": "TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).\nMissing: pharmaceutical, urbanism, astronomy (seems to be online catalogues and desktop tools mostly), controlled vocabulary (most listed here)\nIncomplete: geomatics",
+    "text": "TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures. The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).\nIncomplete: astronomy.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -561,7 +568,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#astronomy",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Astronomy",
-    "text": "Astronomy\n\nVirtual Observatory (VO), the International Virtual Observatory Alliance (IVOA) provides resources for discovering and accessing astronomical data, including standards for data sharing and interoperability\nALMA Science Archive, the ALMA archive gives access to data from the Atacama Large Millimeter/submillimeter Array, providing public access to radio astronomy dataset\nEuropean Space Agency (ESA) Archives, ESA’s space science archives, including data from missions like Gaia and Hubble, offering open access to space mission data\nNASA’s Astrophysics Data System (ADS), ADS is a digital library for astronomy and physics, linking research papers with relevant datasets and providing extensive search capabilities\nSIMBAD (Set of Identifications, Measurements, and Bibliography for Astronomical Data), SIMBAD is a database providing detailed records of celestial objects and their bibliographical references\nSkyServer (Sloan Digital Sky Survey, SDSS), SkyServer provides access to data from the Sloan Digital Sky Survey, with resources for professional astronomers and public users\nTESS Data Portal, the TESS Data Portal provides access to data from the Transiting Exoplanet Survey Satellite, focusing on exoplanet discovery\nESO Science Archive Facility, the European Southern Observatory (ESO) archive contains data from its observatories, including the Very Large Telescope (VLT), and provides tools for data retrieval and analysis",
+    "text": "Astronomy\nAstronomy is largely standardized and relies on many tools developed over several decades, and online catalogues. As such many are standalone tools and are potentially cloud-friendly, though will need some more technical adaptations.\n\nVirtual Observatory (VO), the International Virtual Observatory Alliance (IVOA) provides resources for discovering and accessing astronomical data, including standards for data sharing and interoperability\nALMA Science Archive, the ALMA archive gives access to data from the Atacama Large Millimeter/submillimeter Array, providing public access to radio astronomy dataset\nEuropean Space Agency (ESA) Archives, ESA’s space science archives, including data from missions like Gaia and Hubble, offering open access to space mission data\nNASA’s Astrophysics Data System (ADS), ADS is a digital library for astronomy and physics, linking research papers with relevant datasets and providing extensive search capabilities\nSIMBAD (Set of Identifications, Measurements, and Bibliography for Astronomical Data), SIMBAD is a database providing detailed records of celestial objects and their bibliographical references\nSkyServer (Sloan Digital Sky Survey, SDSS), SkyServer provides access to data from the Sloan Digital Sky Survey, with resources for professional astronomers and public users\nTESS Data Portal, the TESS Data Portal provides access to data from the Transiting Exoplanet Survey Satellite, focusing on exoplanet discovery\nESO Science Archive Facility, the European Southern Observatory (ESO) archive contains data from its observatories, including the Very Large Telescope (VLT), and provides tools for data retrieval and analysis\nESO Reflex\n\nBased on Kepler, which seems out of support, standalone tools for reducing VLT (Very Large Telescope)/VLTI (Very Large Telescope Interferometer) science data. Part of the VLT Instrument Pipelines\nStandalone, no container-based installation.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -594,7 +601,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#generalists",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Generalists",
-    "text": "Generalists\n\nOpen Science Framework (OSF), a platform that supports open research\n\nExtensive API.\n\nRDMO - Research Data Management Organiser\nThe Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)\n\nDocker Compose\n\nDataverse, an open source research data repository software\n\nNo container-based installation. Extensive API.\n\n“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”\n\nExtensive API.\n\nBARTOC is a register Thesauri, Ontologies & Classifications\n\nDocker and docker-compose installation supported but mostly supposed to be used online as a register\n\nRDM, turn-key resaerch data management repository\n\nNo container-based installation, though docker and docker-compose are used for the set-up.\n\nINVENIO, a framework for large-scale digital repositories\n\nNo container-based installation.\n\nRODARE, ROssendorf DAta REpository, Online Data Repository\n\nBased on INVENIO Digital Library framework.\n\nREANA, Reproducible and reusable research data analysis platform\n\nKubernetes, Helm and Kubernetes in Docker\nExtensive API.\n\nUNICORE, A European Federation Software Suite\n\nDocker image but mostly for evaluation\nExtensive API.\n\nSciCat, management and annotation of scientific data based on Elastic Search\n\nDefault docker-compose installation\nExtensive API.",
+    "text": "Generalists\nAll are inherently cross-platform and most follow the FAIR principle.\n\nOpen Science Framework (OSF), a platform that supports open research\n\nOnline\nExtensive API\nInteroperability HIGH: Return well-documented JSON.\n\nRDMO - Research Data Management Organiser\n\nDocker Compose\nExtensive API\nInteroperability HIGH: Return well-documented JSON.\n\nThe Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)\n\nDocker Compose\nAPI\nInteroperability MEDIUM: the API is not documented fully.\n\nDataverse, an open source research data repository software\n\nDocker Compose and Kubernetes\nExtensive API\nInteroperability HIGH: Return documented JSON.\n\n“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”\n\nMostly used online, but provide a Docker Compose\nExtensive API\nInteroperability HIGH: Return well-documented JSON.\n\nBARTOC is a register of Thesauri, Ontologies & Classifications\n\nDocker and docker-compose installation supported but mostly supposed to be used online as a register\nExtensive API\nInteroperability HIGH: Return well-documented JSON.\n\nRDM, turn-key research data management repository\n\nDocker image\nExtensive API\nInteroperability HIGH: Return well-documented JSON.\n\nINVENIO, a framework for large-scale digital repositories\n\nFramework to develop repositories, such as RDM\nAPI\nInteroperability HIGH: All documented, used to build other repositories.\n\nRODARE, ROssendorf DAta REpository, Online Data Repository\n\nBased on INVENIO Digital Library framework.\nExplain how it is FAIR\n\n\nREANA, Reproducible and reusable research data analysis platform\n\nKubernetes, Helm and Kubernetes in Docker\nExtensive APIs\nInteroperability HIGH: use a yaml file which is fully documented\n\nUNICORE, A European Federation Software Suite\n\nDocker image but mostly for evaluation\nExtensive API\nInteroperability HIGH: Return well-documented JSON.\n\nSciCat, management and annotation of scientific data based on Elastic Search\n\nDefault docker-compose installation\nExtensive API\nInteroperability HIGH: Return well-documented JSON.\n\nre3data, registry of research data repositories\n\nOnline.\nExtensive API\nInteroperability HIGH: Return XML following a given schema.",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -605,7 +612,7 @@
     "href": "pages/DataManagement_MajorPlatforms.html#authority-control",
     "title": "DeKCD - Major Data Management platforms - Draft",
     "section": "Authority control",
-    "text": "Authority control\n\nORCID, Open Researcher and Contributor ID\nROR, “a global, community-led registry of open persistent identifiers for research organizations”\nDOI, Digital Object Identifier\nISSN, International Identifier for serials\nISBN, International Standard Book Number\nVIAF, Virtual International Authority File\nGeoNames, database of placenames",
+    "text": "Authority control\n\nORCID, Open Researcher and Contributor ID\n\nOnline.\nExtensive API\n\n\nROR, “a global, community-led registry of open persistent identifiers for research organizations”\nDOI, Digital Object Identifier\nISSN, International Identifier for serials\nISBN, International Standard Book Number\nVIAF, Virtual International Authority File\nGeoNames, database of placenames",
     "crumbs": [
       "Home",
       "DeKCD - Major Data Management platforms - Draft"
@@ -627,14 +634,21 @@
     "href": "pages/DataManagement_Ontologies.html",
     "title": "DeKCD - Major Ontologies/Thesauruses",
     "section": "",
-    "text": "Most ontologies for life sciences are listed by the Ontology Lookup Service. As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\n\n\nSimilarly, most biomedical ontologies are listed on BioPortal\n\n\n\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations"
+    "text": "Many ontologies, thesauri and classifications are listed on BARTOC BARTOC also lists other registries\nExtensive API"
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
+    "href": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
+    "title": "DeKCD - Major Ontologies/Thesauruses",
+    "section": "",
+    "text": "Many ontologies, thesauri and classifications are listed on BARTOC BARTOC also lists other registries\nExtensive API"
   },
   {
     "objectID": "pages/DataManagement_Ontologies.html#life-science",
     "href": "pages/DataManagement_Ontologies.html#life-science",
     "title": "DeKCD - Major Ontologies/Thesauruses",
-    "section": "",
-    "text": "Most ontologies for life sciences are listed by the Ontology Lookup Service. As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\n\n\nSimilarly, most biomedical ontologies are listed on BioPortal\n\n\n\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations"
+    "section": "Life Science",
+    "text": "Life Science\n\nOntology Lookup Service\nMost ontologies for life sciences are listed by the Ontology Lookup Service. As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\nExtensive API\n\n\nBioPortal, Biomedical Repository\nSimilarly, most biomedical ontologies are listed on BioPortal\nExtensive API\n\n\nMajor Ontologies\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations"
   },
   {
     "objectID": "pages/DataManagement_Ontologies.html#for-health-medical-sciences",
