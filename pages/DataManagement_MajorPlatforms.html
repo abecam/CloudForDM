@@ -279,21 +279,27 @@ ul.task-list li input[type="checkbox"] {
 <p>Related:</p>
 <p>** <a href="https://jermontology.org/">Just Enough Results Model (JERM)</a></p>
 <ul>
-<li><a href="https://aruna-storage.org/">Aruna Object Storage (AOS)</a></li>
-</ul>
-<p>“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”</p>
+<li><p><a href="https://aruna-storage.org/">Aruna Object Storage (AOS)</a></p>
 <ul>
-<li><a href="https://www.xnat.org/">XNAT</a></li>
-</ul>
-<p>XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM &amp; NIfTI). <a href="https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de">Presentation on usage</a></p>
-<p>Extensive API.</p>
-<p><a href="https://github.com/NrgXnat/xnat-docker-compose">Docker Compose</a></p>
+<li><p>“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”</p></li>
+<li><p>Online but provide a <a href="https://github.com/ArunaStorage/aruna?tab=readme-ov-file#getting-started">Docker Compose installation</a></p></li>
+<li><p><a href="https://github.com/ArunaStorage/api">Extensive API</a></p></li>
+<li><p>Interoperability <strong>HIGH</strong>: well documented, uses protocol-buffers and the gRPC framework and exposes the S3 API .</p></li>
+<li><p><strong>Fully</strong> cross-domain: can be used for any kind of storage.</p></li>
+</ul></li>
+<li><p><a href="https://www.xnat.org/">XNAT</a></p>
 <ul>
-<li><a href="https://www.project-redcap.org/">REDCap – Research Electronic Data Capture</a></li>
-</ul>
-<p>Free for non-profit institutions but not Open Source, available upon request.</p>
-<p>Extensive API.</p>
+<li>XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM &amp; NIfTI). <a href="https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de">Presentation on usage</a></li>
+<li><a href="https://www.xnat.org/download/">Docker Compose installation</a>, <a href="https://github.com/NrgXnat/xnat-docker-compose">Docker Compose</a></li>
+<li><a href="https://wiki.xnat.org/xnat-api/xnat-rest-api-directory">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: return well-documented JSON.</li>
+<li><strong>Not</strong> cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications. In the medical domain, support many applications via <a href="https://marketplace.xnat.org/plugins/">plugins</a></li>
+</ul></li>
+<li><p><a href="https://www.project-redcap.org/">REDCap – Research Electronic Data Capture</a></p>
 <ul>
+<li>Free for non-profit institutions but not Open Source, available upon request.</li>
+<li>Extensive API.</li>
+</ul></li>
 <li><p><a href="http://isa-tools.org">ISA format, set of format and related tools for bioscience experiment</a></p></li>
 <li><p><a href="https://rightfield.org.uk/">RightField</a></p></li>
 <li><p><a href="https://crs4.github.io/life_monitor/">“LifeMonitor is a service to support the sustainability and reusability of published computational workflows”</a></p></li>
