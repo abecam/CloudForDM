@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fair---findable-accessible-interoperable-resuable" id="toc-fair---findable-accessible-interoperable-resuable" class="nav-link active" data-scroll-target="#fair---findable-accessible-interoperable-resuable">FAIR - <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, <strong>R</strong>esuable</a></li>
+  <li><a href="#fair---findable-accessible-interoperable-reusable" id="toc-fair---findable-accessible-interoperable-reusable" class="nav-link active" data-scroll-target="#fair---findable-accessible-interoperable-reusable">FAIR - <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, <strong>R</strong>eusable</a></li>
   <li><a href="#contributions-are-welcome" id="toc-contributions-are-welcome" class="nav-link" data-scroll-target="#contributions-are-welcome">Contributions are welcome</a></li>
   <li><a href="#progress" id="toc-progress" class="nav-link" data-scroll-target="#progress">Progress</a></li>
   <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
@@ -231,8 +231,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="fair---findable-accessible-interoperable-resuable" class="level2">
-<h2 class="anchored" data-anchor-id="fair---findable-accessible-interoperable-resuable">FAIR - <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, <strong>R</strong>esuable</h2>
+<section id="fair---findable-accessible-interoperable-reusable" class="level2">
+<h2 class="anchored" data-anchor-id="fair---findable-accessible-interoperable-reusable">FAIR - <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, <strong>R</strong>eusable</h2>
 <p>The Data Management platforms listed should respect the FAIR principle to some extend. The details follow this idea: if a platform offers an extensive API but it is very difficult to find a documentation, then it is not findable or accessible, thus should be considered as such. On the other hand, a platform based on common standards such as RDF or Apache Spark might be interoperable and reusable without needing to document RDF or Apache Spark as their documentation are easily available.</p>
 </section>
 <section id="contributions-are-welcome" class="level2">
@@ -661,13 +661,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="others" class="level2">
 <h2 class="anchored" data-anchor-id="others">Others</h2>
 <ul>
-<li><a href="https://nextcloud.com/">NextCloud</a></li>
+<li><p><a href="https://nextcloud.com/">NextCloud</a></p>
+<ul>
+<li><p>NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugins, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.</p></li>
+<li><p><a href="https://docs.nextcloud.com/server/latest/admin_manual/office/example-docker.html">Docker</a>, <a href="https://github.com/nextcloud/all-in-one/blob/main/manual-install/latest.yml">Docker compose</a> and Kubernetes installation, with <a href="https://github.com/nextcloud/helm">Helm chart</a></p></li>
+<li><p><a href="https://docs.nextcloud.com/server/latest/developer_manual/client_apis/general.html">Extensive API</a></p></li>
+<li><p>Interoperability <strong>HIGH</strong>: The API is well documented and there is several ways of doing things. Then NextCloud is highly flexible, so the use will need to be defined clearly and there might need to restrict it using the API for uploads in order to integrate it in an assembly.</p></li>
+<li><p>Fully cross-domain</p></li>
+</ul></li>
 </ul>
-<p>NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugins, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.</p>
-<pre><code>+ [Docker](https://docs.nextcloud.com/server/latest/admin_manual/office/example-docker.html), [Docker compose](https://github.com/nextcloud/all-in-one/blob/main/manual-install/latest.yml) and Kubernetes installation, with [Helm chart](https://github.com/nextcloud/helm) 
-+ [Extensive API](https://docs.nextcloud.com/server/latest/developer_manual/client_apis/general.html)
-+ Interoperability **HIGH**: The API is well documented and there is several ways of doing things. Then NextCloud is highly flexible, so the use will need to be defined clearly and there might need to restrict it using the API for uploads in order to integrate it in an assembly.
-+ Fully cross-domain</code></pre>
 
 
 </section>
