@@ -413,51 +413,79 @@ ul.task-list li input[type="checkbox"] {
 <section id="open-source" class="level3">
 <h3 class="anchored" data-anchor-id="open-source">Open Source</h3>
 <ul>
-<li><p><a href="https://geoserver.org/">GeoServer, “an open source server for sharing geospatial data”</a></p>
+<li><a href="https://geoserver.org/">GeoServer, “an open source server for sharing geospatial data”</a>
 <ul>
 <li>No container-based installation.</li>
 <li><a href="https://docs.geoserver.org/latest/en/user/">Extensive API</a> and many extensions, well documented.</li>
 <li>Interoperability <strong>HIGH</strong>: support many common formats, well documented.</li>
 <li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
 </ul></li>
-<li><p><a href="https://www.osgeo.org/projects/mapguide-open-source/">MapGuide Open Source, ” a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services.”</a> and <a href="https://mapserver.org/">MapServer, a mapping engine</a>, part of a large portofolio of <a href="https://www.osgeo.org/">Geospatial tools</a></p>
+<li><a href="https://www.osgeo.org/projects/mapguide-open-source/">MapGuide Open Source, ” a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services.”</a> and <a href="https://mapserver.org/">MapServer, a mapping engine</a>, part of a large portofolio of <a href="https://www.osgeo.org/">Geospatial tools</a>
 <ul>
 <li>No container-based installation.</li>
 <li>Extensive API via the related tools.</li>
 <li>Interoperability <strong>HIGH</strong>: support many common formats, documented. One issue of the OSGeo portfolio is the high number of projects with many subpages. As such the contribution to the community is very high, but it can be difficult to navigate.</li>
 <li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
 </ul></li>
-<li><p><a href="https://mapnik.org/">Mapnik, open-source mapping toolkit</a></p>
+<li><a href="https://mapnik.org/">Mapnik, open-source mapping toolkit</a>
 <ul>
 <li>No container-based installation as it is a toolkit to develop mapping applications.</li>
 <li>Mostly to be used as an API or through Python bindings. It is largely <a href="https://github.com/mapnik/mapnik/wiki/LearningMapnik">documented</a> but mostly aimed as developers. Interoperability <strong>MEDIUM/HIGH</strong>: it is aimed at helping develop any kind of mapping applications, but will probably be out of reach as such for non-developers.</li>
 <li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
 </ul></li>
-<li><p><a href="https://arangodb.com/">ArangoDB, open-source and commercial graph and spatial database</a></p>
+<li><a href="https://arangodb.com/">ArangoDB, open-source and commercial graph and spatial database</a>, community version limited to 100gb of data on a single cluster and non-commercial use.
 <ul>
 <li><a href="https://arangodb.com/download-major/">Docker and Kubernetes installations</a></li>
+<li><a href="https://docs.arangodb.com/stable/develop/http-api/#restful-api">Extensive API, well documented, also built-in using Swagger.IO</a></li>
+<li>Interoperability <strong>HIGH</strong>: it is all well-documented and uses JSON.</li>
+<li><strong>Fully</strong> cross-domain: it is a general multi-model database</li>
 </ul></li>
-<li><p><a href="https://geonetwork-opensource.org/">GeoNetwork, catalog application to manage spatially referenced resources</a></p>
+<li><a href="https://geonetwork-opensource.org/">GeoNetwork, catalog application to manage spatially referenced resources</a>
 <ul>
-<li>No container-based installation.</li>
-<li>Extensive API.</li>
+<li><a href="https://docs.geonetwork-opensource.org/4.4/install-guide/installing-with-docker/">Docker image</a></li>
+<li><a href="https://docs.geonetwork-opensource.org/4.4/api/">Extensive API, well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
 </ul></li>
-<li><p><a href="https://geonode.org">GeoNode, an open-source platform for geospatial data sharing, often used for urban planning. It integrates tools for geographic data visualization, editing, and management</a></p>
+<li><a href="https://geonode.org">GeoNode, an open-source platform for geospatial data sharing, often used for urban planning. It integrates tools for geographic data visualization, editing, and management</a>
 <ul>
-<li>API Support: Yes</li>
+<li><a href="https://docs.geonode.org/en/master/install/basic/index.html">Docker-based installation</a></li>
+<li><a href="https://docs.geonode.org/en/master/devel/index.html">Extensive API, very well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
 </ul></li>
-<li><p><a href="https://www.openstreetmap.org">OpenStreetMap (OSM), a collaborative project to create a free, editable map of the world, providing spatial data for urban planning, navigation, and research</a></p>
+<li><a href="https://www.openstreetmap.org">OpenStreetMap (OSM), a collaborative project to create a free, editable map of the world, providing spatial data for urban planning, navigation, and research</a>
 <ul>
-<li>API Support: Yes</li>
+<li>Mostly online with the map of the full world, with many surrounding tools</li>
+<li><a href="https://wiki.openstreetmap.org/wiki/API">Extensive API, very well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented XML, JSON. Maps are either using a text-based format, giving a large size but easy to use, such as <a href="https://wiki.openstreetmap.org/wiki/OSM_XML">OSM XML</a> or a binary format such as <a href="https://wiki.openstreetmap.org/wiki/PBF_Format">PBF</a>, giving a small size but harder to use. The list of map format is on the <a href="https://wiki.openstreetmap.org/wiki/Category:OSM_file_formats">wiki</a></li>
+<li><strong>Mostly</strong> cross-domain, it can be use for any domain. Its usage can be quite complex though, depending on several aspects: extracting a small map can be rather easy using one tool, extracting a large map (such as for a country) can be complex depending on the level of detail needed. The binary format for large map</li>
 </ul></li>
 </ul>
 </section>
 <section id="commercials-1" class="level3">
 <h3 class="anchored" data-anchor-id="commercials-1">Commercials</h3>
 <ul>
-<li><p><a href="https://www.esri.com/en-us/arcgis/geospatial-platform/overview">ESRI ArcGIS, geospatial platform</a></p></li>
-<li><p><a href="https://smartgeo.io/">SMARTGeo, visualization and analytics platform</a></p></li>
-<li><p><a href="https://carto.com/">CARTO, cloud-based spatial analysis</a></p></li>
+<li><a href="https://www.esri.com/en-us/arcgis/geospatial-platform/overview">ESRI ArcGIS, geospatial platform</a>
+<ul>
+<li>Many <a href="https://learn.arcgis.com/en/gallery/">tutorials</a> which are rather hard to navigate and an <a href="https://developers.arcgis.com/documentation/">extensive developer documentation</a>, not linked on the product page.</li>
+<li><a href="https://developers.arcgis.com/documentation/">Extensive APIs, well documented</a> with many <a href="https://esri.github.io/">Open Source tools and samples</a></li>
+<li>Interoperability <strong>HIGH</strong>: many APIs and tools, with documentation and samples.<br>
+</li>
+<li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://smartgeo.io/">SMARTGeo, visualization and analytics platform</a>
+<ul>
+<li>No easily findable public documentation</li>
+<li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://carto.com/">CARTO, cloud-based spatial analysis</a>
+<ul>
+<li><a href="https://docs.carto.com/">All documentation is available publicly</a> with a <a href="https://academy.carto.com/">set of tutorials covering the bases of geospatial data as well</a></li>
+<li>Offer <a href="https://docs.carto.com/carto-user-manual/connections">several possibilities of connections, all documented</a> and several <a href="https://docs.carto.com/carto-for-developers/key-concepts/apis">well documented APIs</a>.</li>
+<li>Interoperability <strong>HIGH</strong>: APIs uses well-documented JSON</li>
+<li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
 </ul>
 </section>
 </section>
