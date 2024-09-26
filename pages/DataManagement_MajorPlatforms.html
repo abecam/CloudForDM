@@ -580,15 +580,43 @@ ul.task-list li input[type="checkbox"] {
 <section id="humanities" class="level2">
 <h2 class="anchored" data-anchor-id="humanities">Humanities</h2>
 <ul>
-<li><p><a href="http://www.tapasproject.org">TAPAS (TEI Archiving, Publishing, and Access Service), a platform for archiving and publishing TEI (Text Encoding Initiative) documents.</a></p></li>
-<li><p><a href="https://hcommons.org">Humanities Commons, a network for scholars to share work and connect, with the CORE repository</a></p></li>
-<li><p><a href="https://omeka.org">Omeka, a content management system for digital collections and exhibitions</a></p>
+<li><a href="http://www.tapasproject.org">TAPAS (TEI Archiving, Publishing, and Access Service), a platform for archiving and publishing TEI (Text Encoding Initiative) documents.</a>
 <ul>
-<li>No container-based installation.</li>
-<li>Extensive API.</li>
+<li>Online only.</li>
+<li>Uses the <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Text Encoding Initiative XML format (TEI)</a></li>
+<li>No easily findable API</li>
+<li>Interoperability <strong>LOW/MEDIUM</strong>: despite the lack of API, each element is findable online and is composed of a well-documented XML and images.</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
 </ul></li>
-<li><p><a href="https://archaeologydataservice.ac.uk">Archaeology Data Service (ADS), for archiving digital data in archaeology.</a></p></li>
-<li><p><a href="https://www.europeana.eu">Europeana, providing access to cultural heritage data from European institutions</a></p></li>
+<li><a href="https://hcommons.org">Humanities Commons, a network for scholars to share work and connect, with the CORE repository</a>
+<ul>
+<li>Online only.</li>
+<li>No easily findable API</li>
+<li>Interoperability <strong>LOW</strong>: it is a repository of documents that are in binary format (docx, pdf for instance), with only metadata in XML</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
+</ul></li>
+<li><a href="https://omeka.org">Omeka, a content management system for digital collections and exhibitions</a>
+<ul>
+<li>No container-based installation, though it was dockerized previously.</li>
+<li>2 versions, Omeka S for sharable resource pool across multiple sites and Omeka Classic for individual projects.</li>
+<li><a href="https://omeka.org/s/docs/developer/api/">Extensive PHP API, more limited REST API, well documented</a></li>
+<li>Interoperability <strong>MEDIUM/HIGH</strong>: uses JSON, seems to be lacking examples and/or samples. Offer a <a href="https://omeka.org/s/docs/user-manual/modules/dspaceconnector/">DSpace connector</a> and <a href="https://omeka.org/s/docs/user-manual/modules/zoteroimport/">Zortero Import</a></li>
+<li><strong>Fully</strong> cross-domain: can be used for referencing any kind of digital resources.</li>
+</ul></li>
+<li><a href="https://archaeologydataservice.ac.uk">Archaeology Data Service (ADS), for archiving digital data in archaeology.</a>
+<ul>
+<li>Online only.</li>
+<li>No API but a <a href="https://archaeologydataservice.ac.uk/about/policies/metadata/metadata-services/">harvesting interface using OAI-PMH</a> and an (extensive documentation)[https://archaeologydataservice.ac.uk/help-guidance/], including on <a href="https://archaeologydataservice.ac.uk/help-guidance/data-reuse/fair-data/">data repositories citing the ADS, that might have an API</a></li>
+<li>Interoperability <strong>MEDIUM/HIGH</strong>: uses standards (DOI, ORCID, Dublin Core) and very well documented. The documentation is also very accessible. Automatic access would need to be through harvesting or an external repository, making things a bit harder.</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
+</ul></li>
+<li><a href="https://www.europeana.eu">Europeana, providing access to cultural heritage data from European institutions</a>
+<ul>
+<li>Online only.</li>
+<li>There is an API, as shown with a footer link “See requests to Europeana APIs”, but without any visible documentation.</li>
+<li>Interoperability <strong>LOW</strong>: it is a repository of medias with a powerful search/filter, but without clear API.</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
+</ul></li>
 </ul>
 </section>
 <section id="bibliography" class="level2">
