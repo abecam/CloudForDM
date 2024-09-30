@@ -209,14 +209,26 @@ ul.task-list li input[type="checkbox"] {
 <section id="life-science" class="level2">
 <h2 class="anchored" data-anchor-id="life-science">Life Science</h2>
 <ul>
-<li><p><a href="https://github.com/BMCBCC/NExtSEEK">NextSeek</a></p></li>
-<li><p><a href="https://bexis2.uni-jena.de/">Bexis2 DM tool. Research Data management software for BioDiversity</a></p>
+<li><a href="https://github.com/BMCBCC/NExtSEEK">NextSeek</a>
+<ul>
+<li>Docker image via dockerfile (root of repository)</li>
+<li>Wrapper on <a href="DataManagement_MajorPlatforms.qmd?#life-science">Seek</a>, so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn’t find a documentation.</li>
+<li>Interoperability <strong>high</strong>: inheriting from Seek interoperability.</li>
+<li><strong>Mostly</strong> cross-domain: should let Seek be configurable.</li>
+</ul></li>
+<li><a href="https://bexis2.uni-jena.de/">Bexis2 DM tool. Research Data management software for BioDiversity</a>
 <ul>
 <li>Running on ASP, no containerization.</li>
+<li>API documented internally only, and we could not check it beyond the <a href="https://demo.bexis2.uni-jena.de/swagger/docs/v1">demo Swagger page</a>. There is an <a href="https://github.com/BEXIS2/OAI-PMH-Module">harvesting module following the OAI-PMH protocol</a>, but not updated recently.</li>
+<li>Interoperability <strong>low/medium</strong>, seems to be usable mostly from the Web UI and not documented enough for programmatic usage. A clear exposition of the API would help greatly.</li>
+<li><strong>Fully</strong> cross-domain, not restricted in type of data.</li>
 </ul></li>
-<li><p><a href="https://www.openclinica.com/">OpenClinica, clinical research EDC platform</a></p>
+<li><a href="https://www.openclinica.com/">OpenClinica, clinical research EDC platform</a> with an <a href="https://www.openclinica.com/get-free-community-edition-software/">Open Source version</a>
 <ul>
 <li>No containerization, java-based.</li>
+<li><a href="https://docs.openclinica.com/oc4/how-and-when-to-use-apis/">Extensive API, well documented</a></li>
+<li>Interoperability <strong>high</strong>: uses <a href="https://docs.openclinica.com/oc4/how-and-when-to-use-apis/cdisc-odm-xml/">well-documented XML</a> for its data format and Json for the API operations.</li>
+<li><strong>Mostly not</strong> cross-domain: built around clinical research. Then the result can be used in other domains.</li>
 </ul></li>
 </ul>
 <p>Extensive API.</p>
@@ -232,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Online</li>
 <li><a href="https://docs.bioconnect.jax.org/tools/jbq/">Command-line based API, well documented</a></li>
-<li>Interoperability <strong>high</strong>: well documented, follow the ISA schema.</li>
+<li>well documented, follow the ISA schema.</li>
 <li><strong>Not</strong> cross-domain: dedicated to bioscience</li>
 </ul></li>
 </ul>
@@ -240,19 +252,37 @@ ul.task-list li input[type="checkbox"] {
 <section id="documents" class="level2">
 <h2 class="anchored" data-anchor-id="documents">Documents</h2>
 <ul>
-<li>Open Contracts, <a href="https://www.openclinica.com/get-free-community-edition-software/">Community Edition</a> &amp; <a href="https://jsv4.github.io/OpenContracts/">Commercial</a></li>
+<li><a href="https://jsv4.github.io/OpenContracts/">Open Contracts, free and Open Source Document Analytics Platform</a>
+<ul>
+<li><a href="https://github.com/JSv4/OpenContracts/blob/main/docs/quick-start.md">Docker compose installation</a></li>
+<li>It seems to be several ways of integrations, but no simple API,</li>
+<li>Interoperability <strong>medium</strong>: usage is well documented, including some integrations, but it seems highly technical and spending time on the documentation is needed.</li>
+<li><strong>Fully</strong> cross-domain: it can be used for any domain.</li>
+</ul></li>
 </ul>
 </section>
 <section id="bibliography" class="level2">
 <h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
 <ul>
-<li><a href="https://inveniosoftware.org/products/ils/">ILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)</a></li>
+<li><a href="https://inveniosoftware.org/products/ils/">ILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)</a>
+<ul>
+<li><a href="https://github.com/inveniosoftware/invenio-app-ils">Docker compose installation</a></li>
+<li><a href="https://invenioils.docs.cern.ch/reference/api/">API, well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Fully</strong> cross-domain: it can be used for any domain.</li>
+</ul></li>
 </ul>
 </section>
 <section id="generalists" class="level2">
 <h2 class="anchored" data-anchor-id="generalists">Generalists</h2>
 <ul>
-<li><a href="https://about.coscine.de/">Coscine, Research Data Management platform, based on RDS</a></li>
+<li><a href="https://about.coscine.de/en/">Coscine, COllaborative SCientific INtegration Environment, Research Data Management platform, based on RDS</a>
+<ul>
+<li>Online only</li>
+<li><a href="https://docs.coscine.de/en/api/api/">Extensive API, well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Fully</strong> cross-domain: it can be used for any domain.</li>
+</ul></li>
 </ul>
 
 
