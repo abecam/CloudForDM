@@ -695,7 +695,7 @@
     "href": "pages/DataManagement_Ontologies.html",
     "title": "DeKCD - Major Ontologies/Thesauruses",
     "section": "",
-    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n* [Extensive API](https://bartoc.org/api/)",
+    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n\nOffer an Extensive API",
     "crumbs": [
       "Home",
       "DeKCD - Major Ontologies/Thesauruses"
@@ -706,7 +706,7 @@
     "href": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
     "title": "DeKCD - Major Ontologies/Thesauruses",
     "section": "",
-    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n* [Extensive API](https://bartoc.org/api/)",
+    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n\nOffer an Extensive API",
     "crumbs": [
       "Home",
       "DeKCD - Major Ontologies/Thesauruses"
@@ -717,7 +717,7 @@
     "href": "pages/DataManagement_Ontologies.html#life-science",
     "title": "DeKCD - Major Ontologies/Thesauruses",
     "section": "Life Science",
-    "text": "Life Science\n\nOntology Lookup Service\nMost ontologies for life sciences are listed by the Ontology Lookup Service.\nAs such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n* [Extensive API](https://www.ebi.ac.uk/ols4/help)\n\n\nBioPortal, Biomedical Repository\nSimilarly, most biomedical ontologies are listed on BioPortal\n* [Extensive API](http://data.bioontology.org/documentation)\n\n\nMajor Ontologies\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations",
+    "text": "Life Science\n\nOntology Lookup Service\nMost ontologies for life sciences are listed by the Ontology Lookup Service.\nAs such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\nOffer an Extensive API\n\n\n\nBioPortal, Biomedical Repository\nSimilarly, most biomedical ontologies are listed on BioPortal\n\nOffer an Extensive API\n\n\n\nMajor Ontologies\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations",
     "crumbs": [
       "Home",
       "DeKCD - Major Ontologies/Thesauruses"
