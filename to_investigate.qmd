@@ -19,3 +19,19 @@ Check what happened with [Clarivate](https://en.wikipedia.org/wiki/Clarivate)
 [OpenData team](https://github.com/opendatateam)
 
 [Presentation DM Tu Dresden](https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
+
+Update on 2/12/2024
+
+[Euro CRIS](https://en.wikipedia.org/wiki/EuroCRIS)
+
+[CIDOC CRM](https://cidoc-crm.org/)
+
+[HYDRA Scraper](https://github.com/digicademy/hydra-scraper)
+
+[Oxygraph](https://github.com/oxigraph/oxigraph)
+
+[ShmarQl](https://github.com/epoz/shmarql)
+
+[NFDI core](https://github.com/ISE-FIZKarlsruhe/nfdicore)
+
+[(obsolete?) list of CRIS](https://en.wikipedia.org/wiki/Comparison_of_research_networking_tools_and_research_profiling_systems)
