@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://abecam.github.io/CloudForDM/to_sort.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_Taxonomies.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_Ontologies.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
-  </url>
-  <url>
     <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MediumPlatforms.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/formats.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/to_investigate.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/about.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MajorPlatforms.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/TowardProvisionning.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
+    <lastmod>2025-01-14T16:43:17.158Z</lastmod>
   </url>
   <url>
     <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_UsefulToolsAndPlatforms.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
+    <lastmod>2025-01-14T16:43:17.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MajorPlatforms.html</loc>
+    <lastmod>2025-01-14T16:43:17.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_Ontologies.html</loc>
+    <lastmod>2025-01-14T16:43:17.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/to_sort.html</loc>
+    <lastmod>2025-01-14T16:43:17.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/about.html</loc>
+    <lastmod>2025-01-14T16:43:17.158Z</lastmod>
   </url>
   <url>
     <loc>https://abecam.github.io/CloudForDM/index.html</loc>
-    <lastmod>2024-12-06T08:22:31.208Z</lastmod>
+    <lastmod>2025-01-14T16:43:17.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/to_investigate.html</loc>
+    <lastmod>2025-01-14T16:43:17.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/TowardProvisionning.html</loc>
+    <lastmod>2025-01-14T16:43:17.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_Taxonomies.html</loc>
+    <lastmod>2025-01-14T16:43:17.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/formats.html</loc>
+    <lastmod>2025-01-14T16:43:17.162Z</lastmod>
   </url>
 </urlset>
