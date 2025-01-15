@@ -1,5 +1,236 @@
 [
   {
+    "objectID": "pages/DataManagement_Taxonomies.html",
+    "href": "pages/DataManagement_Taxonomies.html",
+    "title": "Major taxonomies/classifications",
+    "section": "",
+    "text": "Bartoc offers a list of software for controlled vocabularies that can be extended on GitHub",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#bartoc.org-list-of-software-for-controlled-vocabularies",
+    "href": "pages/DataManagement_Taxonomies.html#bartoc.org-list-of-software-for-controlled-vocabularies",
+    "title": "Major taxonomies/classifications",
+    "section": "",
+    "text": "Bartoc offers a list of software for controlled vocabularies that can be extended on GitHub",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-life-sciences",
+    "href": "pages/DataManagement_Taxonomies.html#for-life-sciences",
+    "title": "Major taxonomies/classifications",
+    "section": "For Life Sciences",
+    "text": "For Life Sciences\n\nMeSH (Medical Subject Headings), controlled vocabulary for indexing articles in life sciences\n\nTools: MeSH Browser, PubMed\n\nNCBI Taxonomy, classification of organisms\n\nTool: NCBI Taxonomy Browser\n\nHUGO Gene Nomenclature, nomenclature for human genes\n\nTool: HGNC Database\n\nUniProt Controlled Vocabulary, vocabulary for protein sequences and functions\n\nTool: UniProt Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-health-and-medicine",
+    "href": "pages/DataManagement_Taxonomies.html#for-health-and-medicine",
+    "title": "Major taxonomies/classifications",
+    "section": "For Health and Medicine",
+    "text": "For Health and Medicine\n\nSNOMED CT (Systematized Nomenclature of Medicine – Clinical Terms), comprehensive, multilingual healthcare terminology\n\nTools: SNOMED CT Browser, IHTSDO\n\nLOINC (Logical Observation Identifiers Names and Codes), standard vocabulary for clinical observations and lab results\n\nTool: LOINC Browser\n\nICD-10 (International Classification of Diseases, 10th Revision), codes for diseases, conditions, and health issues.\n\nTools: ICD-10 Browser, WHO\n\nRxNorm, standard names for clinical drugs\n\nTool: RxNav Browser\n\nUMLS (Unified Medical Language System), integrates biomedical vocabularies\n\nTool: UMLS Metathesaurus Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-chemistry",
+    "href": "pages/DataManagement_Taxonomies.html#for-chemistry",
+    "title": "Major taxonomies/classifications",
+    "section": "For Chemistry",
+    "text": "For Chemistry\n\nIUPAC Nomenclature, system for naming chemical compounds\n\nTool: IUPAC Nomenclature Browser\n\nCAS Registry, database of chemical substances\n\nTools: SciFinder, CAS Registry Browser\n\nInChI (International Chemical Identifier), identifier for chemical substances\n\nTools: InChI Resolver, PubChem\n\nPubChem, public database of chemical molecules\n\nTools: PubChem Search, NIH Entrez",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-environmental-science",
+    "href": "pages/DataManagement_Taxonomies.html#for-environmental-science",
+    "title": "Major taxonomies/classifications",
+    "section": "For Environmental Science",
+    "text": "For Environmental Science\n\nAGROVOC, multilingual controlled vocabulary for agriculture, forestry, and environment\n\nTool: AGROVOC Browser\n\nEPA Terminology Services, terminology for environmental protection and related subjects\n\nTool: EPA Terminology Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-earth-sciences-geospatial-data",
+    "href": "pages/DataManagement_Taxonomies.html#for-earth-sciences-geospatial-data",
+    "title": "Major taxonomies/classifications",
+    "section": "For Earth Sciences & Geospatial Data",
+    "text": "For Earth Sciences & Geospatial Data\n\nCF Conventions (Climate and Forecast Metadata), metadata for climate and geospatial data\n\nTool: CF Standard Names Browser\n\nGCMD Science Keywords (Global Change Master Directory), vocabulary for Earth science data\n\nTool: NASA Earth Science Data Browser\n\nINSPIRE Directive, vocabulary for spatial data and metadata.\n\nTool: INSPIRE Geoportal",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-physics-engineering",
+    "href": "pages/DataManagement_Taxonomies.html#for-physics-engineering",
+    "title": "Major taxonomies/classifications",
+    "section": "For Physics & Engineering",
+    "text": "For Physics & Engineering\n\nPhysics Subject Headings (PhySH), vocabulary for physical sciences literature\n\nTool: PhySH Browser\n\nCSD (Crystallography Structural Database), database of crystal structures\n\nTool: CSD System Browser\n\nInternational Electrotechnical Vocabulary (IEV), standardized terms in electrical technologies\n\nTool: IEV Online Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-social-sciences-humanities",
+    "href": "pages/DataManagement_Taxonomies.html#for-social-sciences-humanities",
+    "title": "Major taxonomies/classifications",
+    "section": "For Social Sciences & Humanities",
+    "text": "For Social Sciences & Humanities\n\nDDC (Dewey Decimal Classification), classification system for organizing knowledge\n\nTool: WebDewey Browser\n\nGetty Vocabularies (AAT, TGN, ULAN), vocabulary for art, architecture, and geographic names\n\nTool: Getty Vocabularies Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#generalists",
+    "href": "pages/DataManagement_Taxonomies.html#generalists",
+    "title": "Major taxonomies/classifications",
+    "section": "Generalists",
+    "text": "Generalists\n\nDublin Core Metadata Initiative (DCMI), standard for metadata terms\n\nTool: DCMI Metadata Terms Browser\n\nISO 25964 Thesaurus Standard, thesaurus construction and controlled vocabulary standard\n\nTool: ISO Online Browsing Platform",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html",
+    "href": "pages/DataManagement_Ontologies.html",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "",
+    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n\nOffer an Extensive API",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
+    "href": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "",
+    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n\nOffer an Extensive API",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#life-science",
+    "href": "pages/DataManagement_Ontologies.html#life-science",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "Life Science",
+    "text": "Life Science\n\nOntology Lookup Service\nMost ontologies for life sciences are listed by the Ontology Lookup Service.\nAs such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\nOffer an Extensive API\n\n\n\nBioPortal, Biomedical Repository\nSimilarly, most biomedical ontologies are listed on BioPortal\n\nOffer an Extensive API\n\n\n\nMajor Ontologies\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-health-medical-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-health-medical-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Health & Medical Sciences",
+    "text": "For Health & Medical Sciences\n\nFoundational Model of Anatomy (FMA), represents a reference ontology for human anatomy\nNational Cancer Institute Thesaurus (NCIT), contains terms for cancers and related diseases\nICD-11 (International Classification of Diseases), used for health statistics, diagnosis, and reimbursement codes\nRXNorm, provides normalized names for clinical drugs",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-environmental-ecological-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-environmental-ecological-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Environmental & Ecological Sciences",
+    "text": "For Environmental & Ecological Sciences\n\nCommunity Ontology Repository\nThe Community Ontology Repository lists the Ontologies for Earth Sciences\n\n\nMajor Ontologies\n\nEnvO (Environment Ontology), describes environments for use in ecology and environmental health\nEOL (Encyclopedia of Life), a comprehensive reference for all known species of life on Earth\nGEMET (General Multilingual Environmental Thesaurus). a thesaurus covering environmental terms\nSemantic Web for Earth and Environmental Terminology (SWEET), provides a highly expressive suite of ontologies for Earth sciences",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-chemistry-chemical-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-chemistry-chemical-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Chemistry & Chemical Sciences",
+    "text": "For Chemistry & Chemical Sciences\n\nChEBI (Chemical Entities of Biological Interest), focuses on ‘small’ chemical compounds\nChEMBL, manages chemical information, including bioactive compounds\nChemical Information Ontology (CHEMINF), describes chemical information and data formats",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-astronomy-space-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-astronomy-space-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Astronomy & Space Sciences",
+    "text": "For Astronomy & Space Sciences\n\nUnified Astronomy Thesaurus (UAT), a modern and open thesaurus for the astronomy community",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-social-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-social-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Social Sciences",
+    "text": "For Social Sciences\n\nBasic Formal Ontology (BFO), a top-level ontology framework used across many domains including social sciences",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-physics",
+    "href": "pages/DataManagement_Ontologies.html#for-physics",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Physics",
+    "text": "For Physics\n\nPhysical Quantities and Units Ontology (QUDT), for physical quantities, units of measure, and associated standards",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-engineering",
+    "href": "pages/DataManagement_Ontologies.html#for-engineering",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Engineering",
+    "text": "For Engineering\n\nMDO (Materials Domain Ontology), “An Ontology for the Materials Design Domain”",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#generalist",
+    "href": "pages/DataManagement_Ontologies.html#generalist",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "Generalist",
+    "text": "Generalist\n\nDublin Core Metadata Initiative (DCMI), provides a standard for resource description and discovery on the web",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
     "objectID": "pages/DataManagement_MediumPlatforms.html",
     "href": "pages/DataManagement_MediumPlatforms.html",
     "title": "Medium Data Management platforms",
@@ -55,48 +286,11 @@
     ]
   },
   {
-    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html",
-    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html",
-    "title": "Useful tools and platforms for Data Management",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
-    "crumbs": [
-      "Home",
-      "Useful tools and platforms for Data Management"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
-    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
-    "title": "Useful tools and platforms for Data Management",
-    "section": "",
-    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
-    "crumbs": [
-      "Home",
-      "Useful tools and platforms for Data Management"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
-    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
-    "title": "Useful tools and platforms for Data Management",
-    "section": "As extra of a solution or an assembly",
-    "text": "As extra of a solution or an assembly\n\nHeimdall is a web-application that provide a dashboard on other web-applications\n\nDocker installation\n\nGreyLog, centralized log management application\n\nDocker and docker-compose installations\n\nGrafana, Grafana is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data sources (wikipedia)\n\nWith installation with docker, docker-compose, kubernetes and helm charts",
-    "crumbs": [
-      "Home",
-      "Useful tools and platforms for Data Management"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
-    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
-    "title": "Useful tools and platforms for Data Management",
-    "section": "For tutorials",
-    "text": "For tutorials\nDocumentations systems\n\nJupyterLab, “web-based interactive development environment for notebooks, code, and data”\n\nInstallation of Jupyter Hub (multi-user) on Kubernetes\n\nCollab is a Google-hosted Jupyter Notebook service, useful for online tutorials\nWebTop, “Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.”\n\nDocker and docker-compose installations",
-    "crumbs": [
-      "Home",
-      "Useful tools and platforms for Data Management"
-    ]
+    "text": "As part of the De.KCD project this registry lists some of the major Data-Management platforms over various scientific domains in a short summary with a focus on how suited they are to a cloud environment, including their interoperability. All contributions are welcome so feel free to submit an issue or a pull request to add or edit. If you have been involved in the development of a Data-Management platform, we would be very happy for any correction or addition."
   },
   {
     "objectID": "pages/DataManagement_MajorPlatforms.html",
@@ -308,139 +502,55 @@
     ]
   },
   {
-    "objectID": "pages/DataManagement_Ontologies.html",
-    "href": "pages/DataManagement_Ontologies.html",
-    "title": "Major Ontologies/Thesauruses",
+    "objectID": "pages/TowardProvisionning.html",
+    "href": "pages/TowardProvisionning.html",
+    "title": "Toward provisionning",
     "section": "",
-    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n\nOffer an Extensive API",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
+    "text": "One important aspect of Software usage is the targeted use:\n\nthe importance of it and of its data: if it is main output of a project, if it is patient-related data, …\nthe scope of usage: for local users only, for the public, for the founding members, for the time of the project, for X years,\nand the variety of usage: consultation only, API usage, export using standardised data, …\n\nAll that has a great influence on the provisionning needed, for needed persons:\n\ncritical data might need the involvement of a cybersecurity engineer,\npersonal data (about persons) might need a data protection specialist or some compliance assessments,\nSoftware that need to run after the end of the project might need a dedicated sys-admin for the planned time,\nSpecific Data usage might need a Software Engineer to adapt, prepare and explain,\n\nBut also for needed technical solution:\n\nA physical server or a Cloud to host the Software, its data and backups,\nSome extra Software such as an Identity Server, so that users are centrally managed,\nA regular backup,\nA monitoring of the logs (access logs, software logs, …) for ** or attacks, an unknown anomaly could be the result of an attack,\nA monitoring of the installed ressources, to be sure there was no malicious tinckering,\nSet-up of automatic updates,\nAuthorized-lists and Nonauthorized-lists, Firewall rules,\nAudit of security,"
   },
   {
-    "objectID": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
-    "href": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
-    "title": "Major Ontologies/Thesauruses",
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html",
+    "title": "Useful tools and platforms for Data Management",
     "section": "",
-    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n\nOffer an Extensive API",
+    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
     "crumbs": [
       "Home",
-      "Major Ontologies/Thesauruses"
+      "Useful tools and platforms for Data Management"
     ]
   },
   {
-    "objectID": "pages/DataManagement_Ontologies.html#life-science",
-    "href": "pages/DataManagement_Ontologies.html#life-science",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "Life Science",
-    "text": "Life Science\n\nOntology Lookup Service\nMost ontologies for life sciences are listed by the Ontology Lookup Service.\nAs such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\nOffer an Extensive API\n\n\n\nBioPortal, Biomedical Repository\nSimilarly, most biomedical ontologies are listed on BioPortal\n\nOffer an Extensive API\n\n\n\nMajor Ontologies\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Ontologies.html#for-health-medical-sciences",
-    "href": "pages/DataManagement_Ontologies.html#for-health-medical-sciences",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "For Health & Medical Sciences",
-    "text": "For Health & Medical Sciences\n\nFoundational Model of Anatomy (FMA), represents a reference ontology for human anatomy\nNational Cancer Institute Thesaurus (NCIT), contains terms for cancers and related diseases\nICD-11 (International Classification of Diseases), used for health statistics, diagnosis, and reimbursement codes\nRXNorm, provides normalized names for clinical drugs",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Ontologies.html#for-environmental-ecological-sciences",
-    "href": "pages/DataManagement_Ontologies.html#for-environmental-ecological-sciences",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "For Environmental & Ecological Sciences",
-    "text": "For Environmental & Ecological Sciences\n\nCommunity Ontology Repository\nThe Community Ontology Repository lists the Ontologies for Earth Sciences\n\n\nMajor Ontologies\n\nEnvO (Environment Ontology), describes environments for use in ecology and environmental health\nEOL (Encyclopedia of Life), a comprehensive reference for all known species of life on Earth\nGEMET (General Multilingual Environmental Thesaurus). a thesaurus covering environmental terms\nSemantic Web for Earth and Environmental Terminology (SWEET), provides a highly expressive suite of ontologies for Earth sciences",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Ontologies.html#for-chemistry-chemical-sciences",
-    "href": "pages/DataManagement_Ontologies.html#for-chemistry-chemical-sciences",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "For Chemistry & Chemical Sciences",
-    "text": "For Chemistry & Chemical Sciences\n\nChEBI (Chemical Entities of Biological Interest), focuses on ‘small’ chemical compounds\nChEMBL, manages chemical information, including bioactive compounds\nChemical Information Ontology (CHEMINF), describes chemical information and data formats",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Ontologies.html#for-astronomy-space-sciences",
-    "href": "pages/DataManagement_Ontologies.html#for-astronomy-space-sciences",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "For Astronomy & Space Sciences",
-    "text": "For Astronomy & Space Sciences\n\nUnified Astronomy Thesaurus (UAT), a modern and open thesaurus for the astronomy community",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Ontologies.html#for-social-sciences",
-    "href": "pages/DataManagement_Ontologies.html#for-social-sciences",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "For Social Sciences",
-    "text": "For Social Sciences\n\nBasic Formal Ontology (BFO), a top-level ontology framework used across many domains including social sciences",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Ontologies.html#for-physics",
-    "href": "pages/DataManagement_Ontologies.html#for-physics",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "For Physics",
-    "text": "For Physics\n\nPhysical Quantities and Units Ontology (QUDT), for physical quantities, units of measure, and associated standards",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Ontologies.html#for-engineering",
-    "href": "pages/DataManagement_Ontologies.html#for-engineering",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "For Engineering",
-    "text": "For Engineering\n\nMDO (Materials Domain Ontology), “An Ontology for the Materials Design Domain”",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Ontologies.html#generalist",
-    "href": "pages/DataManagement_Ontologies.html#generalist",
-    "title": "Major Ontologies/Thesauruses",
-    "section": "Generalist",
-    "text": "Generalist\n\nDublin Core Metadata Initiative (DCMI), provides a standard for resource description and discovery on the web",
-    "crumbs": [
-      "Home",
-      "Major Ontologies/Thesauruses"
-    ]
-  },
-  {
-    "objectID": "to_sort.html",
-    "href": "to_sort.html",
-    "title": "Scrap page: things to sort",
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
+    "title": "Useful tools and platforms for Data Management",
     "section": "",
-    "text": "** “A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.”\n** Data Catalog Vocabulary\n** Linked Data Platform\nFair Data Station\n\n“Autosubmit is a Python-based workflow manager”\n\n“COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.”\nOnline Jupyter Notebooks\n\nSync and share research data, 20GB storage data (NextCloud)\n\n** Store and publish your research data\n\nResearch Object Hub\nEGI\n\nWith some other tools (left menu). Check tools from ESA, EUMETSAT & NASA\n\n“OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.”\n\nKarma data integration tool\nCommercial - “The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle.”\n“The Metadata Registry provides services to developers and consumers of controlled vocabularies”\nMetadata Standards Catalog\n\n“The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability”\n“The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another”\n\nThe Hourglass model\nData FairPort (conference result?)\nMultiple Streams Framework (to decide policy)\nCommercial DM\nRD Connect - Dead?"
+    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
+    "crumbs": [
+      "Home",
+      "Useful tools and platforms for Data Management"
+    ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "As part of the De.KCD project this registry lists some of the major Data-Management platforms over various scientific domains in a short summary with a focus on how suited they are to a cloud environment, including their interoperability. All contributions are welcome so feel free to submit an issue or a pull request to add or edit. If you have been involved in the development of a Data-Management platform, we would be very happy for any correction or addition."
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
+    "title": "Useful tools and platforms for Data Management",
+    "section": "As extra of a solution or an assembly",
+    "text": "As extra of a solution or an assembly\n\nHeimdall is a web-application that provide a dashboard on other web-applications\n\nDocker installation\n\nGreyLog, centralized log management application\n\nDocker and docker-compose installations\n\nGrafana, Grafana is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data sources (wikipedia)\n\nWith installation with docker, docker-compose, kubernetes and helm charts",
+    "crumbs": [
+      "Home",
+      "Useful tools and platforms for Data Management"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
+    "title": "Useful tools and platforms for Data Management",
+    "section": "For tutorials",
+    "text": "For tutorials\nDocumentations systems\n\nJupyterLab, “web-based interactive development environment for notebooks, code, and data”\n\nInstallation of Jupyter Hub (multi-user) on Kubernetes\n\nCollab is a Google-hosted Jupyter Notebook service, useful for online tutorials\nWebTop, “Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.”\n\nDocker and docker-compose installations",
+    "crumbs": [
+      "Home",
+      "Useful tools and platforms for Data Management"
+    ]
   },
   {
     "objectID": "index.html",
@@ -455,140 +565,5 @@
     "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
     "section": "",
     "text": "Taxonomies\nOntologies\nFormats (TBC)"
-  },
-  {
-    "objectID": "to_investigate.html",
-    "href": "to_investigate.html",
-    "title": "Scrap page: things to investigate",
-    "section": "",
-    "text": "Check EBI tools\nWebdav\nPresentation DM\nWikipedia list of academic DB and seach engines\nCheck what happened with Clarivate\nRDM services\nList of solutions at UFZ\nOpenData team\nPresentation DM Tu Dresden"
-  },
-  {
-    "objectID": "pages/TowardProvisionning.html",
-    "href": "pages/TowardProvisionning.html",
-    "title": "Toward provisionning",
-    "section": "",
-    "text": "One important aspect of Software usage is the targeted use:\n\nthe importance of it and of its data: if it is main output of a project, if it is patient-related data, …\nthe scope of usage: for local users only, for the public, for the founding members, for the time of the project, for X years,\nand the variety of usage: consultation only, API usage, export using standardised data, …\n\nAll that has a great influence on the provisionning needed, for needed persons:\n\ncritical data might need the involvement of a cybersecurity engineer,\npersonal data (about persons) might need a data protection specialist or some compliance assessments,\nSoftware that need to run after the end of the project might need a dedicated sys-admin for the planned time,\nSpecific Data usage might need a Software Engineer to adapt, prepare and explain,\n\nBut also for needed technical solution:\n\nA physical server or a Cloud to host the Software, its data and backups,\nSome extra Software such as an Identity Server, so that users are centrally managed,\nA regular backup,\nA monitoring of the logs (access logs, software logs, …) for ** or attacks, an unknown anomaly could be the result of an attack,\nA monitoring of the installed ressources, to be sure there was no malicious tinckering,\nSet-up of automatic updates,\nAuthorized-lists and Nonauthorized-lists, Firewall rules,\nAudit of security,"
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html",
-    "href": "pages/DataManagement_Taxonomies.html",
-    "title": "Major taxonomies/classifications",
-    "section": "",
-    "text": "Bartoc offers a list of software for controlled vocabularies that can be extended on GitHub",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#bartoc.org-list-of-software-for-controlled-vocabularies",
-    "href": "pages/DataManagement_Taxonomies.html#bartoc.org-list-of-software-for-controlled-vocabularies",
-    "title": "Major taxonomies/classifications",
-    "section": "",
-    "text": "Bartoc offers a list of software for controlled vocabularies that can be extended on GitHub",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#for-life-sciences",
-    "href": "pages/DataManagement_Taxonomies.html#for-life-sciences",
-    "title": "Major taxonomies/classifications",
-    "section": "For Life Sciences",
-    "text": "For Life Sciences\n\nMeSH (Medical Subject Headings), controlled vocabulary for indexing articles in life sciences\n\nTools: MeSH Browser, PubMed\n\nNCBI Taxonomy, classification of organisms\n\nTool: NCBI Taxonomy Browser\n\nHUGO Gene Nomenclature, nomenclature for human genes\n\nTool: HGNC Database\n\nUniProt Controlled Vocabulary, vocabulary for protein sequences and functions\n\nTool: UniProt Browser",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#for-health-and-medicine",
-    "href": "pages/DataManagement_Taxonomies.html#for-health-and-medicine",
-    "title": "Major taxonomies/classifications",
-    "section": "For Health and Medicine",
-    "text": "For Health and Medicine\n\nSNOMED CT (Systematized Nomenclature of Medicine – Clinical Terms), comprehensive, multilingual healthcare terminology\n\nTools: SNOMED CT Browser, IHTSDO\n\nLOINC (Logical Observation Identifiers Names and Codes), standard vocabulary for clinical observations and lab results\n\nTool: LOINC Browser\n\nICD-10 (International Classification of Diseases, 10th Revision), codes for diseases, conditions, and health issues.\n\nTools: ICD-10 Browser, WHO\n\nRxNorm, standard names for clinical drugs\n\nTool: RxNav Browser\n\nUMLS (Unified Medical Language System), integrates biomedical vocabularies\n\nTool: UMLS Metathesaurus Browser",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#for-chemistry",
-    "href": "pages/DataManagement_Taxonomies.html#for-chemistry",
-    "title": "Major taxonomies/classifications",
-    "section": "For Chemistry",
-    "text": "For Chemistry\n\nIUPAC Nomenclature, system for naming chemical compounds\n\nTool: IUPAC Nomenclature Browser\n\nCAS Registry, database of chemical substances\n\nTools: SciFinder, CAS Registry Browser\n\nInChI (International Chemical Identifier), identifier for chemical substances\n\nTools: InChI Resolver, PubChem\n\nPubChem, public database of chemical molecules\n\nTools: PubChem Search, NIH Entrez",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#for-environmental-science",
-    "href": "pages/DataManagement_Taxonomies.html#for-environmental-science",
-    "title": "Major taxonomies/classifications",
-    "section": "For Environmental Science",
-    "text": "For Environmental Science\n\nAGROVOC, multilingual controlled vocabulary for agriculture, forestry, and environment\n\nTool: AGROVOC Browser\n\nEPA Terminology Services, terminology for environmental protection and related subjects\n\nTool: EPA Terminology Browser",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#for-earth-sciences-geospatial-data",
-    "href": "pages/DataManagement_Taxonomies.html#for-earth-sciences-geospatial-data",
-    "title": "Major taxonomies/classifications",
-    "section": "For Earth Sciences & Geospatial Data",
-    "text": "For Earth Sciences & Geospatial Data\n\nCF Conventions (Climate and Forecast Metadata), metadata for climate and geospatial data\n\nTool: CF Standard Names Browser\n\nGCMD Science Keywords (Global Change Master Directory), vocabulary for Earth science data\n\nTool: NASA Earth Science Data Browser\n\nINSPIRE Directive, vocabulary for spatial data and metadata.\n\nTool: INSPIRE Geoportal",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#for-physics-engineering",
-    "href": "pages/DataManagement_Taxonomies.html#for-physics-engineering",
-    "title": "Major taxonomies/classifications",
-    "section": "For Physics & Engineering",
-    "text": "For Physics & Engineering\n\nPhysics Subject Headings (PhySH), vocabulary for physical sciences literature\n\nTool: PhySH Browser\n\nCSD (Crystallography Structural Database), database of crystal structures\n\nTool: CSD System Browser\n\nInternational Electrotechnical Vocabulary (IEV), standardized terms in electrical technologies\n\nTool: IEV Online Browser",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#for-social-sciences-humanities",
-    "href": "pages/DataManagement_Taxonomies.html#for-social-sciences-humanities",
-    "title": "Major taxonomies/classifications",
-    "section": "For Social Sciences & Humanities",
-    "text": "For Social Sciences & Humanities\n\nDDC (Dewey Decimal Classification), classification system for organizing knowledge\n\nTool: WebDewey Browser\n\nGetty Vocabularies (AAT, TGN, ULAN), vocabulary for art, architecture, and geographic names\n\nTool: Getty Vocabularies Browser",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_Taxonomies.html#generalists",
-    "href": "pages/DataManagement_Taxonomies.html#generalists",
-    "title": "Major taxonomies/classifications",
-    "section": "Generalists",
-    "text": "Generalists\n\nDublin Core Metadata Initiative (DCMI), standard for metadata terms\n\nTool: DCMI Metadata Terms Browser\n\nISO 25964 Thesaurus Standard, thesaurus construction and controlled vocabulary standard\n\nTool: ISO Online Browsing Platform",
-    "crumbs": [
-      "Home",
-      "Major taxonomies/classifications"
-    ]
-  },
-  {
-    "objectID": "pages/formats.html",
-    "href": "pages/formats.html",
-    "title": "Formats and standards - Draft",
-    "section": "",
-    "text": "Common Formats are an important part of being FAIR\n\nSBML, Systems Biology Markup Language\nPE Tab, “data format for specifying parameter estimation problems in systems biology”\nBioPAX, “a standard language that aims to enable integration, exchange, visualization and analysis of biological pathway data”\nCellML, to store and exchange computer-based mathematical models, based on XML\nMIASE, Minimum information about a simulation experiment\nSBGN, Systems Biology Graphical Notation\nSED-ML, Simulation Experiment Description Markup Language\nRO-Crate , RO-Crate specs\nOxford Common File Layout\nSharable Content Object Reference Model (SCORM)\nGeneral Transit Feed Specification (GTFS)",
-    "crumbs": [
-      "Home",
-      "Formats and standards - Draft"
-    ]
   }
 ]
