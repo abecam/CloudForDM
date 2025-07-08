@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_Ontologies.html</loc>
-    <lastmod>2025-03-25T12:45:43.503Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MajorPlatforms.html</loc>
-    <lastmod>2025-03-25T12:45:43.503Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_UsefulToolsAndPlatforms.html</loc>
-    <lastmod>2025-03-25T12:45:43.503Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/index.html</loc>
-    <lastmod>2025-03-25T12:45:43.503Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/about.html</loc>
-    <lastmod>2025-03-25T12:45:43.503Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/TowardProvisionning.html</loc>
-    <lastmod>2025-03-25T12:45:43.503Z</lastmod>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MediumPlatforms.html</loc>
+    <lastmod>2025-07-08T14:22:51.376Z</lastmod>
   </url>
   <url>
     <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_Taxonomies.html</loc>
-    <lastmod>2025-03-25T12:45:43.503Z</lastmod>
+    <lastmod>2025-07-08T14:22:51.376Z</lastmod>
   </url>
   <url>
-    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MediumPlatforms.html</loc>
-    <lastmod>2025-03-25T12:45:43.503Z</lastmod>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_Ontologies.html</loc>
+    <lastmod>2025-07-08T14:22:51.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/TowardProvisionning.html</loc>
+    <lastmod>2025-07-08T14:22:51.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/about.html</loc>
+    <lastmod>2025-07-08T14:22:51.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/index.html</loc>
+    <lastmod>2025-07-08T14:22:51.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_UsefulToolsAndPlatforms.html</loc>
+    <lastmod>2025-07-08T14:22:51.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abecam.github.io/CloudForDM/pages/DataManagement_MajorPlatforms.html</loc>
+    <lastmod>2025-07-08T14:22:51.376Z</lastmod>
   </url>
 </urlset>
