@@ -1,3 +1,7 @@
+> ⚠️ **Repository Moved**  
+> This repository has been moved to [https://github.com/deKCD/FAIR-DMP-Registry](https://github.com/deKCD/FAIR-DMP-Registry).  
+> Please visit the new location to consult or contribute.
+
 # Repository of Data Management Platforms respecting the FAIR principle with a focus on Cloud usage
 
 Source for the [website](https://abecam.github.io/CloudForDM/)
